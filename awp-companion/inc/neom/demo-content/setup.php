@@ -16,7 +16,7 @@ if ( ! function_exists( 'neom_starter_sites_import_files' ) ) {
 
 		return array(
 			array(
-				'import_file_name'         => esc_html__( 'neom-blog', 'neom-blog' ),
+				'import_file_name'         => esc_html__( 'Neom Blog', 'neom-blog' ),
 				'categories'               => array( 'Pro Demos' ),
 				'preview_url'              => 'https://awplife.com/demo/neom-premium/',
 				'import_preview_image_url' => $demo_url . '/inc/neom/img/demo-screenshots/neom.png',

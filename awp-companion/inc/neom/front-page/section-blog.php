@@ -132,8 +132,7 @@ if ( true === $neom_blog_disabled ) {
 <script>
 	jQuery( document ).ready(function() {
 		jQuery(".post-carousel").owlCarousel({
-			rtl: jQuery("html").attr("dir") == 'rtl' ? true : false,
-			items: 3,
+			rtl: jQuery("html").attr("dir") === 'rtl', // Simplified check
 			navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-right"></i>'],
 			margin: 30,
 			stagePadding: 15,
@@ -145,13 +144,20 @@ if ( true === $neom_blog_disabled ) {
 			animateIn: 'fadeIn',
 			responsive: {
 				0: {
-					items: 1
+					items: 1,
+					nav: true // Added here to make navigation appear on mobile screens
 				},
 				601: {
-						nav: true
+					items: 2,
+					nav: true
+				},
+				768: {
+					items: 2,
+					nav: true
 				},
 				992: {
-						nav: false
+					items: 3,
+					nav: false // Navigation hidden for larger screens
 				}
 			}
 		});

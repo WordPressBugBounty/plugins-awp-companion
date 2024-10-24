@@ -6,7 +6,7 @@ if ( true === $neom_about_area_disabled ) {
 	$neom_about_container_size = get_theme_mod( 'neom_about_container_size', 'av-container' );
 	$neom_about_column_layout  = get_theme_mod( 'neom_about_column_layout', 'theme-column-6' );
 	$neom_about_img            = get_theme_mod( 'neom_about_img', awp_companion_plugin_url . '/inc/neom/img/about.webp' );
-	$neom_about_img_text       = get_theme_mod( 'neom_about_img_text', 'Call Us : +70 975 975 70' );
+	$neom_about_img_text       = get_theme_mod( 'neom_about_img_text', 'Call Us : +987 654 321' );
 	$neom_about_editor_content = get_theme_mod( 'neom_about_editor_content' );
 	$neom_about_content        = get_theme_mod( 'neom_about_content', NEOM_ABOUT_DEFAULT_CONTENT );
 	?>	

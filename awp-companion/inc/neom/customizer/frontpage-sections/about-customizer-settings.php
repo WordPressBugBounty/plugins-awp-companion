@@ -61,7 +61,7 @@ if ( ! class_exists( 'neom_Customize_Homepage_About_Option' ) ) :
 				// if about section image found.
 				'neom_about_img_text'         => array(
 					'setting' => array(
-						'default'           => 'Call Us : +70 975 975 70',
+						'default'           => 'Call Us : +987 654 321',
 						'sanitize_callback' => 'sanitize_text_field',
 					),
 					'control' => array(

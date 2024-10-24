@@ -1,10 +1,10 @@
 === A WP Life Companion ===
 Contributors: awordpresslife
 Donate link: https://paypal.me/awplife
-Tags: frontpage, themepage, featured, widgets, admin, companion, homepage, WordPress frontpage, template
+Tags: frontpage, companion, homepage, WordPress frontpage, template
 Requires at least: 4.6
-Tested up to: 6.4
-Stable tag: 1.4.2
+Tested up to: 6.6
+Stable tag: 1.4.3
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -101,6 +101,13 @@ https://pixabay.com/photos/bedroom-visualization-4696556/
 Have any queries?
 
 == Changelog ==
+= 1.4.3 =
+* Adding Neom Theme Default Demos 
+* Adding Nemo.php in child themes
+* Neom City
+* Neom Blogger
+* Neom Business
+
 = 1.4.2 =
 * Demo Removed Neom
 
