@@ -4,7 +4,7 @@ Donate link: https://paypal.me/awplife
 Tags: frontpage, companion, homepage, WordPress frontpage, template
 Requires at least: 4.6
 Tested up to: 6.6
-Stable tag: 1.4.3
+Stable tag: 1.4.4
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -101,6 +101,13 @@ https://pixabay.com/photos/bedroom-visualization-4696556/
 Have any queries?
 
 == Changelog ==
+= 1.4.4 =
+* mobile css fixed
+* Neom Business Screenshot Done
+* Neom Demo Added
+* Neom Business Demo Added
+* Screenshot Pending
+
 = 1.4.3 =
 * Adding Neom Theme Default Demos 
 * Adding Nemo.php in child themes

@@ -133,7 +133,10 @@ if ( true === $neom_team_disabled ) :
 			animateIn: 'fadeIn',
 			responsive: {
 				0: {
-					items: 2
+					items: 1
+				},
+				601: {
+					items: 2,
 				},
 				768: {
 					items: 3

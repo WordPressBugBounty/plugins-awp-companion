@@ -16,6 +16,16 @@ if ( ! function_exists( 'neom_starter_sites_import_files' ) ) {
 
 		return array(
 			array(
+				'import_file_name'         => esc_html__( 'Neom Business', 'neom-blog' ),
+				'categories'                 => array( 'Free Demos' ),
+				'import_file_url'            => $demo_url . '/inc/neom/demo-content/neom-business/neom-business.xml',
+				'import_widget_file_url'     => $demo_url . '/inc/neom/demo-content/neom-business/neom-business.wie',
+				'import_customizer_file_url' => $demo_url . '/inc/neom/demo-content/neom-business/neom-business.dat',
+				'preview_url'				=> 'https://awplife.com/demo/neom-business/',
+				'import_preview_image_url'	=> $demo_url . '/inc/neom/img/demo-screenshots/neom-business.png',
+			),
+
+			array(
 				'import_file_name'         => esc_html__( 'Neom Blog', 'neom-blog' ),
 				'categories'               => array( 'Pro Demos' ),
 				'preview_url'              => 'https://awplife.com/demo/neom-premium/',
@@ -72,7 +82,7 @@ add_action( 'pt-ocdi/after_import', 'neom_starter_sites_after_import_mods' );
 // Custom CSS for OCDI plugin.
 function neom_starter_sites_ocdi_css() { ?>
 	<style>
-		.ocdi__gl-item:nth-child(n+1) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about, .ocdi__intro-text {
+		.ocdi__gl-item:nth-child(n+2) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about, .ocdi__intro-text {
 			display: none;
 		}
 		.ocdi__gl-item-image-container::after {
