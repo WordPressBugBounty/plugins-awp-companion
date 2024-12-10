@@ -79,20 +79,21 @@ if ( ! function_exists( 'neom_starter_sites_after_import_mods' ) ) {
 add_action( 'pt-ocdi/after_import', 'neom_starter_sites_after_import_mods' );
 
 
-// Custom CSS for OCDI plugin.
-function neom_starter_sites_ocdi_css() { ?>
-	<style>
-		.ocdi__gl-item:nth-child(n+2) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about, .ocdi__intro-text {
-			display: none;
-		}
-		.ocdi__gl-item-image-container::after {
-			padding-top: 75% !important;
-		}
-
-	</style>
-	<?php
+function neom_starter_sites_ocdi_css() {
+    // Check if the current screen is not the customizer
+    if ( is_admin() && !is_customize_preview() ) { ?>
+        <style>
+            .ocdi__gl-item:nth-child(n+2) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about, .ocdi__intro-text {
+                display: none;
+            }
+            .ocdi__gl-item-image-container::after {
+                padding-top: 75% !important;
+            }
+        </style>
+    <?php }
 }
-add_action( 'admin_enqueue_scripts', 'neom_starter_sites_ocdi_css' );
+add_action( 'admin_head', 'neom_starter_sites_ocdi_css' );
+
 
 // Change the "One Click Demo Import" name from "Starter Sites" in Appearance menu.
 function neom_starter_sites_ocdi_plugin_page_setup( $default_settings ) {

@@ -177,39 +177,42 @@ if ( ! function_exists( 'formula_starter_sites_after_import_mods' ) ) {
 }
 add_action( 'pt-ocdi/after_import', 'formula_starter_sites_after_import_mods' );
 
-// Custom CSS for OCDI plugin.
-function formula_starter_sites_ocdi_css() { ?>
-	<style >
-		.ocdi__gl-item:nth-child(n+8) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about, .ocdi__intro-text {
-			display: none;
-		}
-		.ocdi__gl-item-image-container::after {
-			padding-top: 75% !important;
-		}
+function formula_starter_sites_ocdi_css() {
+    // Check if the current screen is not the customizer
+    $current_screen = get_current_screen();
+    if ( isset( $current_screen->id ) && $current_screen->id !== 'customize' ) { ?>
+        <style>
+            .ocdi__gl-item:nth-child(n+8) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about, .ocdi__intro-text {
+                display: none;
+            }
+            .ocdi__gl-item-image-container::after {
+                padding-top: 75% !important;
+            }
 
-		@media (min-width: 1120px){
-			.ocdi__gl-item {
-				-webkit-box-flex: 0;
-				-ms-flex: 0 0 calc(24.33% - 30px) !important;
-				flex: 0 0 calc(24.33% - 30px) !important;
-				margin-bottom: 30px;
-				margin-right: 30px;
-			}
-		}
+            @media (min-width: 1120px) {
+                .ocdi__gl-item {
+                    -webkit-box-flex: 0;
+                    -ms-flex: 0 0 calc(24.33% - 30px) !important;
+                    flex: 0 0 calc(24.33% - 30px) !important;
+                    margin-bottom: 30px;
+                    margin-right: 30px;
+                }
+            }
 
-		/*@media (min-width: 1120px) {
-			.ocdi__gl-item:nth-child(n+5) {
-				flex: 0 0 calc(33% - 150px) !important; 
-			}
-		}
+            /*@media (min-width: 1120px) {
+                .ocdi__gl-item:nth-child(n+5) {
+                    flex: 0 0 calc(33% - 150px) !important; 
+                }
+            }
 
-		.ocdi__gl-item:nth-child(n+5) .ocdi__gl-item-image-container {
-			height: 365px;
-		}*/
-	</style>
-	<?php
+            .ocdi__gl-item:nth-child(n+5) .ocdi__gl-item-image-container {
+                height: 365px;
+            }*/
+        </style>
+    <?php }
 }
 add_action( 'admin_enqueue_scripts', 'formula_starter_sites_ocdi_css' );
+
 
 // Change the "One Click Demo Import" name from "Starter Sites" in Appearance menu.
 function formula_starter_sites_ocdi_plugin_page_setup( $default_settings ) {
