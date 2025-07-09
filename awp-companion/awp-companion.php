@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 * Plugin Name:          A WP Life Themes Companion
 * Plugin URI:           https://wordpress.org/plugins/awp-companion
 * Description:          A WP Life Themes Companion plugin provides awordpresslife themes extra settings for front page.
-* Version:              1.4.5
+* Version:              1.4.6
 * Author:               A WP Life
 * Author URI:           https://awplife.com/
 * Tested up to:         6.7
@@ -50,7 +50,7 @@ if ( ! function_exists( 'awp_companion_init' ) ) {
 		}
 		if ( 'Formula' == $activate_theme || 'Formula Dark' == $activate_theme || 'Formula Light' == $activate_theme ||
 		'Metaverse' == $activate_theme || 'Medical Formula' == $activate_theme || 'Education Formula' == $activate_theme ||
-		'Nature Formula' == $activate_theme ) {
+		'Nature Formula' == $activate_theme || 'Blog Formula' == $activate_theme ) {
 			require 'inc/formula/formula.php';
 		}
 		if ( 'Neom Blog' == $activate_theme || 'Neom City' == $activate_theme || 'Neom Blogger' == $activate_theme || 'Neom Business' == $activate_theme ) {

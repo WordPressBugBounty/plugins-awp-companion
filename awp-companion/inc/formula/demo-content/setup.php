@@ -82,6 +82,15 @@ if ( ! function_exists( 'formula_starter_sites_import_files' ) ) {
 				'import_preview_image_url'   => $demo_url . '/inc/formula/demo-content/education/thumb.png',
 			),
 			array(
+				'import_file_name'           => esc_html__( 'Blog Formula', 'formula' ),
+				'categories'                 => array( 'Free Demos' ),
+				'import_file_url'            => $demo_url . '/inc/formula/demo-content/blog/blog-formula.xml',
+				'import_widget_file_url'     => $demo_url . '/inc/formula/demo-content/blog/blog-formula.wie',
+				'import_customizer_file_url' => $demo_url . '/inc/formula/demo-content/blog/blog-formula.dat',
+				'preview_url'                => 'https://awplife.com/demo/blog-formula/',
+				'import_preview_image_url'   => $demo_url . '/inc/formula/demo-content/blog/thumb.png',
+			),
+			array(
 				'import_file_name'         => esc_html__( 'Metaverse Formula Pro', 'formula' ),
 				'categories'               => array( 'Premium Demos' ),
 				'preview_url'              => 'https://awplife.com/demo/metaverse-formula-pro/',
@@ -182,7 +191,7 @@ function formula_starter_sites_ocdi_css() {
     $current_screen = get_current_screen();
     if ( isset( $current_screen->id ) && $current_screen->id !== 'customize' ) { ?>
         <style>
-            .ocdi__gl-item:nth-child(n+8) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about, .ocdi__intro-text {
+            .ocdi__gl-item:nth-child(n+9) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about, .ocdi__intro-text {
                 display: none;
             }
             .ocdi__gl-item-image-container::after {
@@ -251,11 +260,6 @@ function formula_starter_sites_register_plugins( $plugins ) {
 		array(
 			'name'     => 'Portfolio Filter Gallery',
 			'slug'     => 'portfolio-filter-gallery',
-			'required' => true,
-		),
-		array(
-			'name'     => 'Login Page',
-			'slug'     => 'customizer-login-page',
 			'required' => true,
 		),
 	);
