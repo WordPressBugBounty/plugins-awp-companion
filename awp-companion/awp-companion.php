@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 * Version:              1.4.6
 * Author:               A WP Life
 * Author URI:           https://awplife.com/
-* Tested up to:         6.7
+* Tested up to:         6.8
 * Requires:             4.6 or higher
 * License:              GPLv3 or later
 * License URI:          http://www.gnu.org/licenses/gpl-3.0.html

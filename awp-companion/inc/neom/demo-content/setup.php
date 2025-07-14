@@ -130,8 +130,8 @@ function neom_starter_sites_register_plugins( $plugins ) {
 			'required' => true,
 		),
 		array(
-			'name'     => 'Customizer login Page',
-			'slug'     => 'customizer-login-page',
+			'name'     => 'Pricing Table',
+			'slug'     => 'abc-pricing-table',
 			'required' => true,
 		),
 	);
