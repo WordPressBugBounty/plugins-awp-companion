@@ -26,6 +26,16 @@ if ( ! function_exists( 'neom_starter_sites_import_files' ) ) {
 			),
 
 			array(
+				'import_file_name'         => esc_html__( 'Neom Dark', 'neom-blog' ),
+				'categories'                 => array( 'Free Demos' ),
+				'import_file_url'            => $demo_url . '/inc/neom/demo-content/neom-dark/neom-dark.xml',
+				'import_widget_file_url'     => $demo_url . '/inc/neom/demo-content/neom-dark/neom-dark.wie',
+				'import_customizer_file_url' => $demo_url . '/inc/neom/demo-content/neom-dark/neom-dark.dat',
+				'preview_url'				=> 'https://awplife.com/demo/neom-dark/',
+				'import_preview_image_url'	=> $demo_url . '/inc/neom/img/demo-screenshots/neom-dark.png',
+			),
+
+			array(
 				'import_file_name'         => esc_html__( 'Neom Blog', 'neom-blog' ),
 				'categories'               => array( 'Pro Demos' ),
 				'preview_url'              => 'https://awplife.com/demo/neom-premium/',
@@ -83,7 +93,7 @@ function neom_starter_sites_ocdi_css() {
     // Check if the current screen is not the customizer
     if ( is_admin() && !is_customize_preview() ) { ?>
         <style>
-            .ocdi__gl-item:nth-child(n+2) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about, .ocdi__intro-text {
+            .ocdi__gl-item:nth-child(n+3) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about, .ocdi__intro-text {
                 display: none;
             }
             .ocdi__gl-item-image-container::after {
@@ -120,8 +130,8 @@ function neom_starter_sites_register_plugins( $plugins ) {
 			'required' => true,
 		),
 		array(
-			'name'     => 'Portfolio Gallery',
-			'slug'     => 'portfolio-filter-gallery',
+			'name'     => 'Blog Filter Gallery',
+			'slug'     => 'blog-filter',
 			'required' => true,
 		),
 		array(
@@ -130,8 +140,8 @@ function neom_starter_sites_register_plugins( $plugins ) {
 			'required' => true,
 		),
 		array(
-			'name'     => 'Pricing Table',
-			'slug'     => 'abc-pricing-table',
+			'name'     => 'Ultimate Portfolio',
+			'slug'     => 'ultimate-portfolio',
 			'required' => true,
 		),
 	);
