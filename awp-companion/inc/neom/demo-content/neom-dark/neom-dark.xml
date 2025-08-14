@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.8.2" created="2025-08-11 10:49" -->
+	<!-- generator="WordPress/6.8.2" created="2025-08-14 09:23" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Neom Dark Free</title>
 	<link>https://awplife.com/demo/neom-dark-free</link>
 	<description></description>
-	<pubDate>Mon, 11 Aug 2025 10:49:54 +0000</pubDate>
+	<pubDate>Thu, 14 Aug 2025 09:23:29 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://awplife.com/demo/</wp:base_site_url>
@@ -77,6 +77,27 @@
 		<wp:tag_name><![CDATA[works]]></wp:tag_name>
 	</wp:tag>
 			<wp:term>
+		<wp:term_id>18</wp:term_id>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[business]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Business]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>20</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[business]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[business]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>17</wp:term_id>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[designing]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Designing]]></wp:term_name>
+	</wp:term>
+		<wp:term>
 		<wp:term_id>7</wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_visibility]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[exclude-from-catalog]]></wp:term_slug>
@@ -110,6 +131,13 @@
 		<wp:term_slug><![CDATA[grouped]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[grouped]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>16</wp:term_id>
+		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[neom-menu]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Neom Menu]]></wp:term_name>
 	</wp:term>
 		<wp:term>
 		<wp:term_id>9</wp:term_id>
@@ -161,6 +189,13 @@
 		<wp:term_name><![CDATA[simple]]></wp:term_name>
 	</wp:term>
 		<wp:term>
+		<wp:term_id>1</wp:term_id>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[uncategorized]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Uncategorized]]></wp:term_name>
+	</wp:term>
+		<wp:term>
 		<wp:term_id>15</wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[uncategorized]]></wp:term_slug>
@@ -173,6 +208,27 @@
 		<wp:term_slug><![CDATA[variable]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[variable]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>22</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[wordpress]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[wordpress]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>19</wp:term_id>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[works]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Works]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>21</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[works]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[works]]></wp:term_name>
 	</wp:term>
 			<wp:term><wp:term_id>16</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[neom-menu]]></wp:term_slug><wp:term_name><![CDATA[Neom Menu]]></wp:term_name>
 </wp:term>
@@ -276,67 +332,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
 		<wp:meta_value><![CDATA[22]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2024-10-24]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/2025/08/08/23/</link>
-		<pubDate>Thu, 24 Oct 2024 10:25:58 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-business/?p=23</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>27</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-08 07:13:17]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-10-24 10:25:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-08 07:13:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-08 07:13:17]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[23]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="neom-menu"><![CDATA[Neom Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[20]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
@@ -906,63 +901,119 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Sample Page]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/?page_id=2</link>
+		<title><![CDATA[mountain-sky-night-star-milky-way-dawn-56824-pxhere.com]]></title>
+		<link>https://awplife.com/demo/neom-dark-free/mountain-sky-night-star-milky-way-dawn-56824-pxhere-com-3/</link>
+		<pubDate>Tue, 12 Aug 2025 09:23:10 +0000</pubDate>
+		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
+		<guid isPermaLink="false">http://awplife.com/demo/neom-dark-free/wp-content/uploads/sites/155/2025/08/mountain-sky-night-star-milky-way-dawn-56824-pxhere.com_-2.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>110</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-12 09:23:10]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-12 09:23:10]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-12 09:23:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-12 09:23:10]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[mountain-sky-night-star-milky-way-dawn-56824-pxhere-com-3]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://awplife.com/demo/neom-dark-free/wp-content/uploads/sites/155/2025/08/mountain-sky-night-star-milky-way-dawn-56824-pxhere.com_-2.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025/08/mountain-sky-night-star-milky-way-dawn-56824-pxhere.com_-2.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1024;s:6:"height";i:683;s:4:"file";s:70:"2025/08/mountain-sky-night-star-milky-way-dawn-56824-pxhere.com_-2.jpg";s:8:"filesize";i:264138;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:70:"mountain-sky-night-star-milky-way-dawn-56824-pxhere.com_-2-300x200.jpg";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:9866;}s:9:"thumbnail";a:5:{s:4:"file";s:70:"mountain-sky-night-star-milky-way-dawn-56824-pxhere.com_-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:4315;}s:12:"medium_large";a:5:{s:4:"file";s:70:"mountain-sky-night-star-milky-way-dawn-56824-pxhere.com_-2-768x512.jpg";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:61852;}s:21:"woocommerce_thumbnail";a:6:{s:4:"file";s:70:"mountain-sky-night-star-milky-way-dawn-56824-pxhere.com_-2-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:14571;s:9:"uncropped";b:0;}s:18:"woocommerce_single";a:5:{s:4:"file";s:70:"mountain-sky-night-star-milky-way-dawn-56824-pxhere.com_-2-600x400.jpg";s:5:"width";i:600;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:38063;}s:29:"woocommerce_gallery_thumbnail";a:5:{s:4:"file";s:70:"mountain-sky-night-star-milky-way-dawn-56824-pxhere.com_-2-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:2553;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Hello world!]]></title>
+		<link>https://awplife.com/demo/neom-dark-free/?p=1</link>
 		<pubDate>Thu, 07 Aug 2025 08:57:29 +0000</pubDate>
 		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">http://neom-dark-free.awplife.com/demo/?page_id=2</guid>
+		<guid isPermaLink="false">http://neom-dark-free.awplife.com/demo/?p=1</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><p>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</p></blockquote>
-<!-- /wp:quote -->
-
-<!-- wp:paragraph -->
-<p>...or something like this:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p></blockquote>
-<!-- /wp:quote -->
-
-<!-- wp:paragraph -->
-<p>As a new WordPress user, you should go to <a href="https://neom-dark-free.awplife.com/demo/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!</p>
-<!-- /wp:paragraph -->]]></content:encoded>
+		<content:encoded><![CDATA[Welcome to <a href="https://awplife.com/demo/">A WP Life Demo Website Network</a>. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2</wp:post_id>
+		<wp:post_id>1</wp:post_id>
 		<wp:post_date><![CDATA[2025-08-07 08:57:29]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-08-07 08:57:29]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-08 07:07:56]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-08 07:07:56]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:post_modified><![CDATA[2025-08-08 06:56:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-08 06:56:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[sample-page__trashed-2]]></wp:post_name>
+		<wp:post_name><![CDATA[hello-world__trashed]]></wp:post_name>
 		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
 		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1754636876]]></wp:meta_value>
+		<wp:meta_value><![CDATA[1754636204]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[sample-page]]></wp:meta_value>
+		<wp:meta_value><![CDATA[hello-world]]></wp:meta_value>
 		</wp:postmeta>
-							</item>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_comments_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:1;s:1:"1";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:comment>
+			<wp:comment_id>1</wp:comment_id>
+			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
+			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2025-08-07 08:57:29]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2025-08-07 08:57:29]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment.
+To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
+Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[post-trashed]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+							</wp:comment>
+					</item>
+					<item>
+		<title><![CDATA[Navigation]]></title>
+		<link>https://awplife.com/demo/neom-dark-free/2025/08/07/navigation/</link>
+		<pubDate>Thu, 07 Aug 2025 09:00:42 +0000</pubDate>
+		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
+		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/2025/08/07/navigation/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>3</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-07 09:00:42]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-07 09:00:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-07 09:00:42]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-07 09:00:42]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[navigation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
 					<item>
 		<title><![CDATA[Home]]></title>
 		<link>https://awplife.com/demo/neom-dark-free/</link>
@@ -1020,474 +1071,32 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Shop]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/shop/</link>
-		<pubDate>Thu, 07 Aug 2025 09:01:39 +0000</pubDate>
+		<title><![CDATA[Hello world!]]></title>
+		<link>https://awplife.com/demo/neom-dark-free/?p=15</link>
+		<pubDate>Thu, 24 Oct 2024 10:13:37 +0000</pubDate>
 		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/shop/</guid>
+		<guid isPermaLink="false">http://neom-business.awplife.com/demo/?p=1</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
+		<content:encoded><![CDATA[Welcome to <a href="https://awplife.com/demo/">A WP Life Demo Website Network</a>. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>8</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-07 09:01:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-07 09:01:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-07 09:01:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-07 09:01:39]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[shop]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Cart]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/cart/</link>
-		<pubDate>Thu, 07 Aug 2025 09:01:39 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/cart/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:woocommerce/cart -->
-<div class="wp-block-woocommerce-cart alignwide is-loading"><!-- wp:woocommerce/filled-cart-block -->
-<div class="wp-block-woocommerce-filled-cart-block"><!-- wp:woocommerce/cart-items-block -->
-<div class="wp-block-woocommerce-cart-items-block"><!-- wp:woocommerce/cart-line-items-block -->
-<div class="wp-block-woocommerce-cart-line-items-block"></div>
-<!-- /wp:woocommerce/cart-line-items-block -->
-
-<!-- wp:woocommerce/cart-cross-sells-block -->
-<div class="wp-block-woocommerce-cart-cross-sells-block"><!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">You may be interested in…</h2>
-<!-- /wp:heading -->
-
-<!-- wp:woocommerce/cart-cross-sells-products-block -->
-<div class="wp-block-woocommerce-cart-cross-sells-products-block"></div>
-<!-- /wp:woocommerce/cart-cross-sells-products-block --></div>
-<!-- /wp:woocommerce/cart-cross-sells-block --></div>
-<!-- /wp:woocommerce/cart-items-block -->
-
-<!-- wp:woocommerce/cart-totals-block -->
-<div class="wp-block-woocommerce-cart-totals-block"><!-- wp:woocommerce/cart-order-summary-block -->
-<div class="wp-block-woocommerce-cart-order-summary-block"><!-- wp:woocommerce/cart-order-summary-heading-block -->
-<div class="wp-block-woocommerce-cart-order-summary-heading-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-heading-block -->
-
-<!-- wp:woocommerce/cart-order-summary-coupon-form-block -->
-<div class="wp-block-woocommerce-cart-order-summary-coupon-form-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-coupon-form-block -->
-
-<!-- wp:woocommerce/cart-order-summary-subtotal-block -->
-<div class="wp-block-woocommerce-cart-order-summary-subtotal-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-subtotal-block -->
-
-<!-- wp:woocommerce/cart-order-summary-fee-block -->
-<div class="wp-block-woocommerce-cart-order-summary-fee-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-fee-block -->
-
-<!-- wp:woocommerce/cart-order-summary-discount-block -->
-<div class="wp-block-woocommerce-cart-order-summary-discount-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-discount-block -->
-
-<!-- wp:woocommerce/cart-order-summary-shipping-block -->
-<div class="wp-block-woocommerce-cart-order-summary-shipping-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-shipping-block -->
-
-<!-- wp:woocommerce/cart-order-summary-taxes-block -->
-<div class="wp-block-woocommerce-cart-order-summary-taxes-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-taxes-block --></div>
-<!-- /wp:woocommerce/cart-order-summary-block -->
-
-<!-- wp:woocommerce/cart-express-payment-block -->
-<div class="wp-block-woocommerce-cart-express-payment-block"></div>
-<!-- /wp:woocommerce/cart-express-payment-block -->
-
-<!-- wp:woocommerce/proceed-to-checkout-block -->
-<div class="wp-block-woocommerce-proceed-to-checkout-block"></div>
-<!-- /wp:woocommerce/proceed-to-checkout-block -->
-
-<!-- wp:woocommerce/cart-accepted-payment-methods-block -->
-<div class="wp-block-woocommerce-cart-accepted-payment-methods-block"></div>
-<!-- /wp:woocommerce/cart-accepted-payment-methods-block --></div>
-<!-- /wp:woocommerce/cart-totals-block --></div>
-<!-- /wp:woocommerce/filled-cart-block -->
-
-<!-- wp:woocommerce/empty-cart-block -->
-<div class="wp-block-woocommerce-empty-cart-block"><!-- wp:heading {"textAlign":"center","className":"with-empty-cart-icon wc-block-cart__empty-cart__title"} -->
-<h2 class="wp-block-heading has-text-align-center with-empty-cart-icon wc-block-cart__empty-cart__title">Your cart is currently empty!</h2>
-<!-- /wp:heading -->
-
-<!-- wp:separator {"className":"is-style-dots"} -->
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center">New in store</h2>
-<!-- /wp:heading -->
-
-<!-- wp:woocommerce/product-new {"columns":4,"rows":1} /--></div>
-<!-- /wp:woocommerce/empty-cart-block --></div>
-<!-- /wp:woocommerce/cart -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>9</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-07 09:01:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-07 09:01:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-07 09:01:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-07 09:01:39]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[cart]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Checkout]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/checkout/</link>
-		<pubDate>Thu, 07 Aug 2025 09:01:39 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/checkout/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:woocommerce/checkout -->
-<div class="wp-block-woocommerce-checkout alignwide wc-block-checkout is-loading"><!-- wp:woocommerce/checkout-fields-block -->
-<div class="wp-block-woocommerce-checkout-fields-block"><!-- wp:woocommerce/checkout-express-payment-block -->
-<div class="wp-block-woocommerce-checkout-express-payment-block"></div>
-<!-- /wp:woocommerce/checkout-express-payment-block -->
-
-<!-- wp:woocommerce/checkout-contact-information-block -->
-<div class="wp-block-woocommerce-checkout-contact-information-block"></div>
-<!-- /wp:woocommerce/checkout-contact-information-block -->
-
-<!-- wp:woocommerce/checkout-shipping-method-block -->
-<div class="wp-block-woocommerce-checkout-shipping-method-block"></div>
-<!-- /wp:woocommerce/checkout-shipping-method-block -->
-
-<!-- wp:woocommerce/checkout-pickup-options-block -->
-<div class="wp-block-woocommerce-checkout-pickup-options-block"></div>
-<!-- /wp:woocommerce/checkout-pickup-options-block -->
-
-<!-- wp:woocommerce/checkout-shipping-address-block -->
-<div class="wp-block-woocommerce-checkout-shipping-address-block"></div>
-<!-- /wp:woocommerce/checkout-shipping-address-block -->
-
-<!-- wp:woocommerce/checkout-billing-address-block -->
-<div class="wp-block-woocommerce-checkout-billing-address-block"></div>
-<!-- /wp:woocommerce/checkout-billing-address-block -->
-
-<!-- wp:woocommerce/checkout-shipping-methods-block -->
-<div class="wp-block-woocommerce-checkout-shipping-methods-block"></div>
-<!-- /wp:woocommerce/checkout-shipping-methods-block -->
-
-<!-- wp:woocommerce/checkout-payment-block -->
-<div class="wp-block-woocommerce-checkout-payment-block"></div>
-<!-- /wp:woocommerce/checkout-payment-block -->
-
-<!-- wp:woocommerce/checkout-additional-information-block -->
-<div class="wp-block-woocommerce-checkout-additional-information-block"></div>
-<!-- /wp:woocommerce/checkout-additional-information-block -->
-
-<!-- wp:woocommerce/checkout-order-note-block -->
-<div class="wp-block-woocommerce-checkout-order-note-block"></div>
-<!-- /wp:woocommerce/checkout-order-note-block -->
-
-<!-- wp:woocommerce/checkout-terms-block -->
-<div class="wp-block-woocommerce-checkout-terms-block"></div>
-<!-- /wp:woocommerce/checkout-terms-block -->
-
-<!-- wp:woocommerce/checkout-actions-block -->
-<div class="wp-block-woocommerce-checkout-actions-block"></div>
-<!-- /wp:woocommerce/checkout-actions-block --></div>
-<!-- /wp:woocommerce/checkout-fields-block -->
-
-<!-- wp:woocommerce/checkout-totals-block -->
-<div class="wp-block-woocommerce-checkout-totals-block"><!-- wp:woocommerce/checkout-order-summary-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-block"><!-- wp:woocommerce/checkout-order-summary-cart-items-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-cart-items-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-cart-items-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-coupon-form-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-coupon-form-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-coupon-form-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-subtotal-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-subtotal-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-subtotal-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-fee-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-fee-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-fee-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-discount-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-discount-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-discount-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-shipping-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-shipping-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-shipping-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-taxes-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-taxes-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-taxes-block --></div>
-<!-- /wp:woocommerce/checkout-order-summary-block --></div>
-<!-- /wp:woocommerce/checkout-totals-block --></div>
-<!-- /wp:woocommerce/checkout -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>10</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-07 09:01:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-07 09:01:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-07 09:01:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-07 09:01:39]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[checkout]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[My account]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/my-account/</link>
-		<pubDate>Thu, 07 Aug 2025 09:01:39 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/my-account/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:shortcode -->[woocommerce_my_account]<!-- /wp:shortcode -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>11</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-07 09:01:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-07 09:01:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-07 09:01:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-07 09:01:39]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[my-account]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Refund and Returns Policy]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/?page_id=12</link>
-		<pubDate></pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/?page_id=12</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p><b>This is a sample page.</b></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Overview</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Our refund and returns policy lasts 30 days. If 30 days have passed since your purchase, we can’t offer you a full refund or exchange.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>To be eligible for a return, your item must be unused and in the same condition that you received it. It must also be in the original packaging.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Several types of goods are exempt from being returned. Perishable goods such as food, flowers, newspapers or magazines cannot be returned. We also do not accept products that are intimate or sanitary goods, hazardous materials, or flammable liquids or gases.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Additional non-returnable items:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul>
-<li>Gift cards</li>
-<li>Downloadable software products</li>
-<li>Some health and personal care items</li>
-</ul>
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-<p>To complete your return, we require a receipt or proof of purchase.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Please do not send your purchase back to the manufacturer.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>There are certain situations where only partial refunds are granted:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul>
-<li>Book with obvious signs of use</li>
-<li>CD, DVD, VHS tape, software, video game, cassette tape, or vinyl record that has been opened.</li>
-<li>Any item not in its original condition, is damaged or missing parts for reasons not due to our error.</li>
-<li>Any item that is returned more than 30 days after delivery</li>
-</ul>
-<!-- /wp:list -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Refunds</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Once your return is received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>If you are approved, then your refund will be processed, and a credit will automatically be applied to your credit card or original method of payment, within a certain amount of days.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Late or missing refunds</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>If you haven’t received a refund yet, first check your bank account again.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Then contact your credit card company, it may take some time before your refund is officially posted.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Next contact your bank. There is often some processing time before a refund is posted.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>If you’ve done all of this and you still have not received your refund yet, please contact us at {email address}.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Sale items</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Only regular priced items may be refunded. Sale items cannot be refunded.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Exchanges</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>We only replace items if they are defective or damaged. If you need to exchange it for the same item, send us an email at {email address} and send your item to: {physical address}.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Gifts</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>If the item was marked as a gift when purchased and shipped directly to you, you’ll receive a gift credit for the value of your return. Once the returned item is received, a gift certificate will be mailed to you.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>If the item wasn’t marked as a gift when purchased, or the gift giver had the order shipped to themselves to give to you later, we will send a refund to the gift giver and they will find out about your return.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Shipping returns</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>To return your product, you should mail your product to: {physical address}.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>You will be responsible for paying for your own shipping costs for returning your item. Shipping costs are non-refundable. If you receive a refund, the cost of return shipping will be deducted from your refund.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Depending on where you live, the time it may take for your exchanged product to reach you may vary.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>If you are returning more expensive items, you may consider using a trackable shipping service or purchasing shipping insurance. We don’t guarantee that we will receive your returned item.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Need help?</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Contact us at {email} for questions related to refunds and returns.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-07 09:01:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-07 09:01:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[refund_returns]]></wp:post_name>
-		<wp:status><![CDATA[draft]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Customizer Login Page Plugin]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/customizer-login-page-plugin/</link>
-		<pubDate>Thu, 07 Aug 2025 09:01:41 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/customizer-login-page-plugin/</guid>
-		<description></description>
-		<content:encoded><![CDATA[This page is used by Customizer Login Page Plugin.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-07 09:01:41]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-07 09:01:41]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-07 09:01:41]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-07 09:01:41]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[customizer-login-page-plugin]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Home]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/?page_id=18</link>
-		<pubDate>Thu, 24 Oct 2024 10:16:15 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-business/home/</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>18</wp:post_id>
-		<wp:post_date><![CDATA[2024-10-24 10:16:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-10-24 10:16:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-08 07:07:53]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-08 07:07:53]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home-2__trashed]]></wp:post_name>
+		<wp:post_id>15</wp:post_id>
+		<wp:post_date><![CDATA[2024-10-24 10:13:37]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-10-24 10:13:37]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-08 06:56:43]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-08 06:56:43]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[hello-world-2__trashed]]></wp:post_name>
 		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page-templates/frontpage.php]]></wp:meta_value>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
@@ -1495,53 +1104,57 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1754636873]]></wp:meta_value>
+		<wp:meta_value><![CDATA[1754636203]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[home-2]]></wp:meta_value>
+		<wp:meta_value><![CDATA[hello-world-2]]></wp:meta_value>
 		</wp:postmeta>
-							</item>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_comments_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:2;s:1:"1";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:comment>
+			<wp:comment_id>2</wp:comment_id>
+			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
+			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2024-10-24 10:13:37]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2024-10-24 10:13:37]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment.
+To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
+Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow ugc\">Gravatar</a>.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[post-trashed]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+							</wp:comment>
+					</item>
 					<item>
-		<title><![CDATA[Blog]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/?page_id=19</link>
-		<pubDate>Thu, 24 Oct 2024 10:16:15 +0000</pubDate>
+		<title><![CDATA[Navigation]]></title>
+		<link>https://awplife.com/demo/neom-dark-free/2024/10/24/navigation-2/</link>
+		<pubDate>Thu, 24 Oct 2024 10:14:14 +0000</pubDate>
 		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-business/blog/</guid>
+		<guid isPermaLink="false">https://awplife.com/demo/neom-business/2024/10/24/navigation/</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
+		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>19</wp:post_id>
-		<wp:post_date><![CDATA[2024-10-24 10:16:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-10-24 10:16:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-08 07:07:49]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-08 07:07:49]]></wp:post_modified_gmt>
+		<wp:post_id>17</wp:post_id>
+		<wp:post_date><![CDATA[2024-10-24 10:14:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-10-24 10:14:14]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-10-24 10:14:14]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-10-24 10:14:14]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[blog-2__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_name><![CDATA[navigation-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1754636869]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[blog-2]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
+														</item>
 					<item>
 		<title><![CDATA[Full Width Page]]></title>
 		<link>https://awplife.com/demo/neom-dark-free/full-width-page/</link>
@@ -1618,6 +1231,67 @@
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 		<wp:meta_value><![CDATA[page-templates/full-width.php]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>https://awplife.com/demo/neom-dark-free/2025/08/08/23/</link>
+		<pubDate>Thu, 24 Oct 2024 10:25:58 +0000</pubDate>
+		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
+		<guid isPermaLink="false">https://awplife.com/demo/neom-business/?p=23</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>27</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-08 07:13:17]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-10-24 10:25:58]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-08 07:13:17]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-08 07:13:17]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[23]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="neom-menu"><![CDATA[Neom Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[20]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2024-10-24]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1783,6 +1457,145 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 		<wp:meta_value><![CDATA[53]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Powerfully WordPress theme]]></title>
+		<link>https://awplife.com/demo/neom-dark-free/2025/08/08/powerfully-wordpress-theme/</link>
+		<pubDate>Fri, 08 Aug 2025 07:01:06 +0000</pubDate>
+		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
+		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/?p=78</guid>
+		<description></description>
+		<content:encoded><![CDATA[What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>78</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-08 07:01:06]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-08 07:01:06]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-08 07:11:03]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-08 07:11:03]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[powerfully-wordpress-theme]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="business"><![CDATA[Business]]></category>
+		<category domain="post_tag" nicename="business"><![CDATA[business]]></category>
+		<category domain="category" nicename="designing"><![CDATA[Designing]]></category>
+		<category domain="category" nicename="works"><![CDATA[Works]]></category>
+		<category domain="post_tag" nicename="works"><![CDATA[works]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[49]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[5 things that startup needs to do to succeed]]></title>
+		<link>https://awplife.com/demo/neom-dark-free/2025/08/08/5-things-that-every-startup-needs-to-do-to-succeed/</link>
+		<pubDate>Fri, 08 Aug 2025 07:01:25 +0000</pubDate>
+		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
+		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/?p=80</guid>
+		<description></description>
+		<content:encoded><![CDATA[What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>80</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-08 07:01:25]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-08 07:01:25]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-08 07:11:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-08 07:11:10]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[5-things-that-every-startup-needs-to-do-to-succeed]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="business"><![CDATA[Business]]></category>
+		<category domain="post_tag" nicename="business"><![CDATA[business]]></category>
+		<category domain="category" nicename="designing"><![CDATA[Designing]]></category>
+		<category domain="post_tag" nicename="wordpress"><![CDATA[wordpress]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[47]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Best Free Tools for Adding Dynamic Animations to Theme]]></title>
+		<link>https://awplife.com/demo/neom-dark-free/2025/08/08/best-free-tools-for-adding-dynamic-animations-to-theme/</link>
+		<pubDate>Fri, 08 Aug 2025 07:01:47 +0000</pubDate>
+		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
+		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/?p=82</guid>
+		<description></description>
+		<content:encoded><![CDATA[What is Lorem Ipsum? 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>82</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-08 07:01:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-08 07:01:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-08 07:11:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-08 07:11:16]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[best-free-tools-for-adding-dynamic-animations-to-theme]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="designing"><![CDATA[Designing]]></category>
+		<category domain="post_tag" nicename="wordpress"><![CDATA[wordpress]]></category>
+		<category domain="category" nicename="works"><![CDATA[Works]]></category>
+		<category domain="post_tag" nicename="works"><![CDATA[works]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[48]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -1961,310 +1774,29 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Hello world!]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/?p=1</link>
-		<pubDate>Thu, 07 Aug 2025 08:57:29 +0000</pubDate>
+		<title><![CDATA[Customizer Login Page Plugin]]></title>
+		<link>https://awplife.com/demo/neom-dark-free/customizer-login-page-plugin/</link>
+		<pubDate>Thu, 14 Aug 2025 09:23:14 +0000</pubDate>
 		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">http://neom-dark-free.awplife.com/demo/?p=1</guid>
+		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/customizer-login-page-plugin/</guid>
 		<description></description>
-		<content:encoded><![CDATA[Welcome to <a href="https://awplife.com/demo/">A WP Life Demo Website Network</a>. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
+		<content:encoded><![CDATA[This page is used by Customizer Login Page Plugin.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-07 08:57:29]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-07 08:57:29]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-08 06:56:44]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-08 06:56:44]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[hello-world__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1754636204]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[hello-world]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_comments_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:1;s:1:"1";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:comment>
-			<wp:comment_id>1</wp:comment_id>
-			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
-			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2025-08-07 08:57:29]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2025-08-07 08:57:29]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Hi, this is a comment.
-To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
-Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[post-trashed]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-							</wp:comment>
-					</item>
-					<item>
-		<title><![CDATA[Navigation]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/2025/08/07/navigation/</link>
-		<pubDate>Thu, 07 Aug 2025 09:00:42 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/2025/08/07/navigation/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>3</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-07 09:00:42]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-07 09:00:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-07 09:00:42]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-07 09:00:42]]></wp:post_modified_gmt>
+		<wp:post_id>119</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-14 09:23:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-14 09:23:14]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-14 09:23:14]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-14 09:23:14]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[navigation]]></wp:post_name>
+		<wp:post_name><![CDATA[customizer-login-page-plugin]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
-					<item>
-		<title><![CDATA[Hello world!]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/?p=15</link>
-		<pubDate>Thu, 24 Oct 2024 10:13:37 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">http://neom-business.awplife.com/demo/?p=1</guid>
-		<description></description>
-		<content:encoded><![CDATA[Welcome to <a href="https://awplife.com/demo/">A WP Life Demo Website Network</a>. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>15</wp:post_id>
-		<wp:post_date><![CDATA[2024-10-24 10:13:37]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-10-24 10:13:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-08 06:56:43]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-08 06:56:43]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[hello-world-2__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1754636203]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[hello-world-2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_comments_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:2;s:1:"1";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:comment>
-			<wp:comment_id>2</wp:comment_id>
-			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
-			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2024-10-24 10:13:37]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2024-10-24 10:13:37]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Hi, this is a comment.
-To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
-Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow ugc\">Gravatar</a>.]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[post-trashed]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-							</wp:comment>
-					</item>
-					<item>
-		<title><![CDATA[Navigation]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/2024/10/24/navigation-2/</link>
-		<pubDate>Thu, 24 Oct 2024 10:14:14 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-business/2024/10/24/navigation/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>17</wp:post_id>
-		<wp:post_date><![CDATA[2024-10-24 10:14:14]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-10-24 10:14:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-10-24 10:14:14]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-10-24 10:14:14]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[navigation-2]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Powerfully WordPress theme]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/2025/08/08/powerfully-wordpress-theme/</link>
-		<pubDate>Fri, 08 Aug 2025 07:01:06 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/?p=78</guid>
-		<description></description>
-		<content:encoded><![CDATA[What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>78</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-08 07:01:06]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-08 07:01:06]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-08 07:11:03]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-08 07:11:03]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[powerfully-wordpress-theme]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="business"><![CDATA[Business]]></category>
-		<category domain="post_tag" nicename="business"><![CDATA[business]]></category>
-		<category domain="category" nicename="designing"><![CDATA[Designing]]></category>
-		<category domain="category" nicename="works"><![CDATA[Works]]></category>
-		<category domain="post_tag" nicename="works"><![CDATA[works]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[49]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[5 things that startup needs to do to succeed]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/2025/08/08/5-things-that-every-startup-needs-to-do-to-succeed/</link>
-		<pubDate>Fri, 08 Aug 2025 07:01:25 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/?p=80</guid>
-		<description></description>
-		<content:encoded><![CDATA[What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>80</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-08 07:01:25]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-08 07:01:25]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-08 07:11:10]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-08 07:11:10]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[5-things-that-every-startup-needs-to-do-to-succeed]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="business"><![CDATA[Business]]></category>
-		<category domain="post_tag" nicename="business"><![CDATA[business]]></category>
-		<category domain="category" nicename="designing"><![CDATA[Designing]]></category>
-		<category domain="post_tag" nicename="wordpress"><![CDATA[wordpress]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[47]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Best Free Tools for Adding Dynamic Animations to Theme]]></title>
-		<link>https://awplife.com/demo/neom-dark-free/2025/08/08/best-free-tools-for-adding-dynamic-animations-to-theme/</link>
-		<pubDate>Fri, 08 Aug 2025 07:01:47 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-dark-free/?p=82</guid>
-		<description></description>
-		<content:encoded><![CDATA[What is Lorem Ipsum? 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>82</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-08 07:01:47]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-08 07:01:47]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-08 07:11:16]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-08 07:11:16]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[best-free-tools-for-adding-dynamic-animations-to-theme]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="designing"><![CDATA[Designing]]></category>
-		<category domain="post_tag" nicename="wordpress"><![CDATA[wordpress]]></category>
-		<category domain="category" nicename="works"><![CDATA[Works]]></category>
-		<category domain="post_tag" nicename="works"><![CDATA[works]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[48]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
 				</channel>
 </rss>
 	

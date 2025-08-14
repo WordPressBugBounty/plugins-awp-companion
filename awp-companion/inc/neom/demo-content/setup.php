@@ -130,20 +130,21 @@ function neom_starter_sites_register_plugins( $plugins ) {
 			'required' => true,
 		),
 		array(
-			'name'     => 'Blog Filter Gallery',
-			'slug'     => 'blog-filter',
+			'name'     => 'Portfolio Filter Gallery',
+			'slug'     => 'portfolio-filter-gallery',
 			'required' => true,
 		),
 		array(
-			'name'     => 'WooCommerce',
-			'slug'     => 'woocommerce',
+			'name'     => 'Slider Factory',
+			'slug'     => 'slider-factory',
 			'required' => true,
 		),
 		array(
-			'name'     => 'Ultimate Portfolio',
-			'slug'     => 'ultimate-portfolio',
+			'name'     => 'Pricing Table',
+			'slug'     => 'abc-pricing-table',
 			'required' => true,
 		),
+
 	);
 
 	return array_merge( $plugins, $theme_plugins );
