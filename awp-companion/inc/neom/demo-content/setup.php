@@ -144,6 +144,11 @@ function neom_starter_sites_register_plugins( $plugins ) {
 			'slug'     => 'abc-pricing-table',
 			'required' => true,
 		),
+		array(
+			'name'     => 'Lead Generation Form ',
+			'slug'     => 'lead-generation-form',
+			'required' => true,
+		),
 
 	);
 
