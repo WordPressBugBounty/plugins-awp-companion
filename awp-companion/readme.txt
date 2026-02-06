@@ -4,7 +4,7 @@ Donate link: https://paypal.me/awplife
 Tags: frontpage, companion, homepage, WordPress frontpage, template
 Requires at least: 4.6
 Tested up to: 6.8
-Stable tag: 1.5.1
+Stable tag: 1.5.2
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -101,6 +101,9 @@ https://pixabay.com/photos/bedroom-visualization-4696556/
 Have any queries?
 
 == Changelog ==
+= 1.5.2 =
+* Added Link Option In Neom FAQ section
+
 = 1.5.1 =
 * Plugin Added In Demo Import
 * Lead Form Generation Added

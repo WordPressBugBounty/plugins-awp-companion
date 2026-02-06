@@ -835,6 +835,7 @@ function neom_frontpage_sections_settings( $wp_customize ) {
 					'customizer_repeater_title_control' => true,
 					'customizer_repeater_text_control'  => true,
 					'customizer_repeater_icon_control'  => true,
+					'customizer_repeater_link_control'  => true,
 					'active_callback'                   => 'neom_faq_content',
 				)
 			)

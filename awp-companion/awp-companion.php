@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 * Plugin Name:          A WP Life Themes Companion
 * Plugin URI:           https://wordpress.org/plugins/awp-companion
 * Description:          A WP Life Themes Companion plugin provides awordpresslife themes extra settings for front page.
-* Version:              1.5.1
+* Version:              1.5.2
 * Author:               A WP Life
 * Author URI:           https://awplife.com/
 * Tested up to:         6.8
