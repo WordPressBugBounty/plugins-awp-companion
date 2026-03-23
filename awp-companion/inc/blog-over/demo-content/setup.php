@@ -64,8 +64,11 @@ if (!function_exists('blog_over_starter_sites_after_import')) {
             );
         }
 
-        // Blog Over is a blog theme — keep "Your homepage displays" as
-        // "Your latest posts". Do NOT set a static front page here.
+        // Blog Over is a blog theme — let's forcefully set "Your homepage displays"
+        // as "Your latest posts".
+        update_option( 'show_on_front', 'posts' );
+        update_option( 'page_on_front', 0 );
+        update_option( 'page_for_posts', 0 );
     }
 }
 add_action('pt-ocdi/after_import', 'blog_over_starter_sites_after_import');

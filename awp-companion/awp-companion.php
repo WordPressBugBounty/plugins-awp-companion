@@ -7,7 +7,7 @@ if (!defined('ABSPATH')) {
  * Plugin Name:          A WP Life Themes Companion
  * Plugin URI:           https://wordpress.org/plugins/awp-companion
  * Description:          A WP Life Themes Companion plugin provides awordpresslife themes extra settings for front page.
- * Version:              1.5.3
+ * Version:              1.5.6
  * Author:               A WP Life
  * Author URI:           https://awplife.com/
  * Tested up to:         6.9
@@ -89,9 +89,11 @@ function awp_companion_activate()
 {
 	$activate_theme_data = wp_get_theme(); // getting current theme data.
 	$activate_theme = $activate_theme_data->name;
-	if ('Nature Formula' == $activate_theme) {
-		// let it remain empty in order to show nothing when nature formula activated.
-	} else {
+
+	if ( 'Nature Formula' === $activate_theme || 'Blog Over' === $activate_theme ) {
+		return;
+	}
+	 else {
 		require_once plugin_dir_path(__FILE__) . 'inc/awp-companion-activator.php';
 		awp_companion_plugin_activator::activate();
 	}

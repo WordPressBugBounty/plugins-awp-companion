@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.9.1" created="2026-03-02 06:04" -->
+	<!-- generator="WordPress/6.9.1" created="2026-03-10 07:07" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>BLOG OVER</title>
 	<link>https://awplife.com/demo/blog-over</link>
 	<description></description>
-	<pubDate>Mon, 02 Mar 2026 06:04:16 +0000</pubDate>
+	<pubDate>Tue, 10 Mar 2026 07:07:35 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://awplife.com/demo/</wp:base_site_url>
@@ -39,31 +39,31 @@
 
 		<wp:category>
 		<wp:term_id>23</wp:term_id>
-		<wp:category_nicename><![CDATA[building]]></wp:category_nicename>
+		<wp:category_nicename><![CDATA[bo-building]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[Building]]></wp:cat_name>
 	</wp:category>
 		<wp:category>
 		<wp:term_id>2</wp:term_id>
-		<wp:category_nicename><![CDATA[chatbot]]></wp:category_nicename>
+		<wp:category_nicename><![CDATA[bo-chatbot]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[CHATBOT]]></wp:cat_name>
 	</wp:category>
 		<wp:category>
 		<wp:term_id>3</wp:term_id>
-		<wp:category_nicename><![CDATA[digital-marketing]]></wp:category_nicename>
+		<wp:category_nicename><![CDATA[bo-digital-marketing]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[DIGITAL MARKETING]]></wp:cat_name>
 	</wp:category>
 		<wp:category>
 		<wp:term_id>25</wp:term_id>
-		<wp:category_nicename><![CDATA[style]]></wp:category_nicename>
+		<wp:category_nicename><![CDATA[bo-style]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[Style]]></wp:cat_name>
 	</wp:category>
 		<wp:category>
 		<wp:term_id>19</wp:term_id>
-		<wp:category_nicename><![CDATA[technology]]></wp:category_nicename>
+		<wp:category_nicename><![CDATA[bo-technology]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[Technology]]></wp:cat_name>
 	</wp:category>
@@ -75,7 +75,7 @@
 	</wp:category>
 		<wp:category>
 		<wp:term_id>4</wp:term_id>
-		<wp:category_nicename><![CDATA[website]]></wp:category_nicename>
+		<wp:category_nicename><![CDATA[bo-website]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[WEBSITE]]></wp:cat_name>
 	</wp:category>
@@ -209,14 +209,14 @@
 		<wp:term>
 		<wp:term_id>23</wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[building]]></wp:term_slug>
+		<wp:term_slug><![CDATA[bo-building]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Building]]></wp:term_name>
 	</wp:term>
 		<wp:term>
 		<wp:term_id>2</wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[chatbot]]></wp:term_slug>
+		<wp:term_slug><![CDATA[bo-chatbot]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[CHATBOT]]></wp:term_name>
 	</wp:term>
@@ -244,7 +244,7 @@
 		<wp:term>
 		<wp:term_id>3</wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[digital-marketing]]></wp:term_slug>
+		<wp:term_slug><![CDATA[bo-digital-marketing]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[DIGITAL MARKETING]]></wp:term_name>
 	</wp:term>
@@ -293,7 +293,7 @@
 		<wp:term>
 		<wp:term_id>25</wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[style]]></wp:term_slug>
+		<wp:term_slug><![CDATA[bo-style]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Style]]></wp:term_name>
 	</wp:term>
@@ -307,7 +307,7 @@
 		<wp:term>
 		<wp:term_id>19</wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[technology]]></wp:term_slug>
+		<wp:term_slug><![CDATA[bo-technology]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Technology]]></wp:term_name>
 	</wp:term>
@@ -335,7 +335,7 @@
 		<wp:term>
 		<wp:term_id>4</wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[website]]></wp:term_slug>
+		<wp:term_slug><![CDATA[bo-website]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[WEBSITE]]></wp:term_name>
 	</wp:term>
@@ -4336,8 +4336,8 @@ display: block !important;
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="post_tag" nicename="automobile"><![CDATA[Automobile]]></category>
-		<category domain="category" nicename="chatbot"><![CDATA[CHATBOT]]></category>
-		<category domain="category" nicename="technology"><![CDATA[Technology]]></category>
+		<category domain="category" nicename="bo-chatbot"><![CDATA[CHATBOT]]></category>
+		<category domain="category" nicename="bo-technology"><![CDATA[Technology]]></category>
 		<category domain="post_tag" nicename="visual"><![CDATA[Visual]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
@@ -4512,10 +4512,10 @@ display: block !important;
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="post_tag" nicename="data-analyst"><![CDATA[Data Analyst]]></category>
-		<category domain="category" nicename="digital-marketing"><![CDATA[DIGITAL MARKETING]]></category>
+		<category domain="category" nicename="bo-digital-marketing"><![CDATA[DIGITAL MARKETING]]></category>
 		<category domain="post_tag" nicename="technology"><![CDATA[Technology]]></category>
 		<category domain="post_tag" nicename="visual"><![CDATA[Visual]]></category>
-		<category domain="category" nicename="website"><![CDATA[WEBSITE]]></category>
+		<category domain="category" nicename="bo-website"><![CDATA[WEBSITE]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -4674,10 +4674,10 @@ display: block !important;
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="post_tag" nicename="auto-industry"><![CDATA[Auto Industry]]></category>
 		<category domain="post_tag" nicename="automobile"><![CDATA[Automobile]]></category>
-		<category domain="category" nicename="chatbot"><![CDATA[CHATBOT]]></category>
+		<category domain="category" nicename="bo-chatbot"><![CDATA[CHATBOT]]></category>
 		<category domain="post_tag" nicename="future"><![CDATA[Future]]></category>
 		<category domain="post_tag" nicename="robert"><![CDATA[Robert]]></category>
-		<category domain="category" nicename="technology"><![CDATA[Technology]]></category>
+		<category domain="category" nicename="bo-technology"><![CDATA[Technology]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -4713,6 +4713,408 @@ display: block !important;
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 		<wp:meta_value><![CDATA[814]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Experts Tips In Business]]></title>
+		<link>https://awplife.com/demo/blog-over/2023/02/10/tips-from-experts-in-e-commerce/</link>
+		<pubDate>Fri, 10 Feb 2023 10:46:32 +0000</pubDate>
+		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
+		<guid isPermaLink="false">https://wpfrank.com/demo/automobile-avantex-pro/?p=103</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">1. What Can Managers Take Away From This Study?</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Digital Talent Ecosystem</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>It is a long-established fact that a reader will be distracted by the readable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Enhanced Improvement</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>It is a long-established fact that a reader will be distracted by the readable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">2. Establish A Digital Talent Ecosystem</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol><!-- wp:list-item -->
+<li>Watch the same movie at the same time and text about your reactions</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Create a shared Spotify playlist and listen together</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Read a chapter of the same book every day and talk about it</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">“To Ensure Good Health: Eat Lightly, Breathe Deeply, Live Moderately, Cultivate Cheerfulness, And Maintain An Interest In Life.”</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>DIANNE RUSSELL</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">3. Establish A Digital Talent Ecosystem</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, </p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>175</wp:post_id>
+		<wp:post_date><![CDATA[2023-02-10 10:46:32]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-02-10 10:46:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-01-29 07:28:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-01-29 07:28:55]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[tips-from-experts-in-e-commerce]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="post_tag" nicename="auto-industry"><![CDATA[Auto Industry]]></category>
+		<category domain="post_tag" nicename="data-analyst"><![CDATA[Data Analyst]]></category>
+		<category domain="category" nicename="bo-digital-marketing"><![CDATA[DIGITAL MARKETING]]></category>
+		<category domain="post_tag" nicename="driving"><![CDATA[Driving]]></category>
+		<category domain="post_tag" nicename="visual"><![CDATA[Visual]]></category>
+		<category domain="category" nicename="bo-website"><![CDATA[WEBSITE]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<a data-flickr-embed='true' href='https://www.flickr.com/photos/131865524@N07' title='FARAZ FRANK'><img src='https://live.staticflickr.com/65535/52686617693_fb297c5e23.jpg' width='800' height='600' alt='Vizion-spire'></a><script async src='https://embedr.flickr.com/assets/client-code.js' charset='utf-8'></script>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1684245046]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[8]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<a data-flickr-embed='true' href='https://www.flickr.com/photos/131865524@N07' title='FARAZ FRANK'><img src='https://live.staticflickr.com/65535/52686617693_fb297c5e23.jpg' width='800' height='600' alt='Vizion-spire'></a><script async src='https://embedr.flickr.com/assets/client-code.js' charset='utf-8'></script>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1684245046]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[8]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[826]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Team Work With Minimal Spending]]></title>
+		<link>https://awplife.com/demo/blog-over/2023/02/10/how-to-have-a-team-work-with-minimal-spending/</link>
+		<pubDate>Fri, 10 Feb 2023 10:53:44 +0000</pubDate>
+		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
+		<guid isPermaLink="false">https://wpfrank.com/demo/automobile-avantex-pro/?p=106</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">1. What Can Managers Take Away From This Study?</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Digital Talent Ecosystem</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>It is a long-established fact that a reader will be distracted by the readable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Enhanced Improvement</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>It is a long-established fact that a reader will be distracted by the readable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">2. Establish A Digital Talent Ecosystem</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol><!-- wp:list-item -->
+<li>Watch the same movie at the same time and text about your reactions</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Create a shared Spotify playlist and listen together</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Read a chapter of the same book every day and talk about it</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">“To Ensure Good Health: Eat Lightly, Breathe Deeply, Live Moderately, Cultivate Cheerfulness, And Maintain An Interest In Life.”</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>DIANNE RUSSELL</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">3. Establish A Digital Talent Ecosystem</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable. If you are going to use a passage from Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of the text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>176</wp:post_id>
+		<wp:post_date><![CDATA[2023-02-10 10:53:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-02-10 10:53:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-01-29 07:29:28]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-01-29 07:29:28]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[how-to-have-a-team-work-with-minimal-spending]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="post_tag" nicename="action"><![CDATA[action]]></category>
+		<category domain="post_tag" nicename="automobile"><![CDATA[Automobile]]></category>
+		<category domain="post_tag" nicename="data-analyst"><![CDATA[Data Analyst]]></category>
+		<category domain="category" nicename="bo-digital-marketing"><![CDATA[DIGITAL MARKETING]]></category>
+		<category domain="post_tag" nicename="technology"><![CDATA[Technology]]></category>
+		<category domain="category" nicename="bo-technology"><![CDATA[Technology]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<a data-flickr-embed='true' href='https://www.flickr.com/photos/131865524@N07' title='FARAZ FRANK'><img src='https://live.staticflickr.com/65535/52686617693_fb297c5e23.jpg' width='800' height='600' alt='Vizion-spire'></a><script async src='https://embedr.flickr.com/assets/client-code.js' charset='utf-8'></script>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1679397664]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<a data-flickr-embed='true' href='https://www.flickr.com/photos/131865524@N07' title='FARAZ FRANK'><img src='https://live.staticflickr.com/65535/52686617693_fb297c5e23.jpg' width='800' height='600' alt='Vizion-spire'></a><script async src='https://embedr.flickr.com/assets/client-code.js' charset='utf-8'></script>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1679397664]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[819]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[The New Visual Building Is Here]]></title>
+		<link>https://awplife.com/demo/blog-over/2023/02/10/the-new-visual-builder-is-here/</link>
+		<pubDate>Fri, 10 Feb 2023 10:55:51 +0000</pubDate>
+		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
+		<guid isPermaLink="false">https://wpfrank.com/demo/automobile-avantex-pro/?p=108</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">1. What Can Managers Take Away From This Study?</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Digital Talent Ecosystem</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>It is a long-established fact that a reader will be distracted by the readable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Enhanced Improvement</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>It is a long-established fact that a reader will be distracted by the readable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">2. Establish A Digital Talent Ecosystem</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol><!-- wp:list-item -->
+<li>Watch the same movie at the same time and text about your reactions</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Create a shared Spotify playlist and listen together</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Read a chapter of the same book every day and talk about it</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">“To Ensure Good Health: Eat Lightly, Breathe Deeply, Live Moderately, Cultivate Cheerfulness, And Maintain An Interest In Life.”</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>DIANNE RUSSELL</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">3. Establish A Digital Talent Ecosystem</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable. If you are going to use a passage from Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of the text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>177</wp:post_id>
+		<wp:post_date><![CDATA[2023-02-10 10:55:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-02-10 10:55:51]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-01-29 07:30:14]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-01-29 07:30:14]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[the-new-visual-builder-is-here]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="post_tag" nicename="builder"><![CDATA[Builder]]></category>
+		<category domain="category" nicename="bo-building"><![CDATA[Building]]></category>
+		<category domain="category" nicename="bo-digital-marketing"><![CDATA[DIGITAL MARKETING]]></category>
+		<category domain="post_tag" nicename="future"><![CDATA[Future]]></category>
+		<category domain="post_tag" nicename="technology"><![CDATA[Technology]]></category>
+		<category domain="post_tag" nicename="visual"><![CDATA[Visual]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<a data-flickr-embed='true' href='https://www.flickr.com/photos/131865524@N07' title='FARAZ FRANK'><img src='https://live.staticflickr.com/65535/52686617693_fb297c5e23.jpg' width='800' height='600' alt='Vizion-spire'></a><script async src='https://embedr.flickr.com/assets/client-code.js' charset='utf-8'></script>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1684243020]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[9]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<a data-flickr-embed='true' href='https://www.flickr.com/photos/131865524@N07' title='FARAZ FRANK'><img src='https://live.staticflickr.com/65535/52686617693_fb297c5e23.jpg' width='800' height='600' alt='Vizion-spire'></a><script async src='https://embedr.flickr.com/assets/client-code.js' charset='utf-8'></script>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1684243020]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[9]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[817]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -5270,346 +5672,6 @@ display: block !important;
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Shop]]></title>
-		<link>https://awplife.com/demo/blog-over/?page_id=768</link>
-		<pubDate>Wed, 10 Jul 2024 07:16:35 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-blogging/shop/</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>768</wp:post_id>
-		<wp:post_date><![CDATA[2024-07-10 07:16:35]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-07-10 07:16:35]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-02-05 10:14:27]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-02-05 10:14:27]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[shop__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1770286467]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[shop]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Cart]]></title>
-		<link>https://awplife.com/demo/blog-over/?page_id=769</link>
-		<pubDate>Wed, 10 Jul 2024 07:16:35 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-blogging/cart/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:woocommerce/cart -->
-<div class="wp-block-woocommerce-cart alignwide is-loading"><!-- wp:woocommerce/filled-cart-block -->
-<div class="wp-block-woocommerce-filled-cart-block"><!-- wp:woocommerce/cart-items-block -->
-<div class="wp-block-woocommerce-cart-items-block"><!-- wp:woocommerce/cart-line-items-block -->
-<div class="wp-block-woocommerce-cart-line-items-block"></div>
-<!-- /wp:woocommerce/cart-line-items-block -->
-
-<!-- wp:woocommerce/cart-cross-sells-block -->
-<div class="wp-block-woocommerce-cart-cross-sells-block"><!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">You may be interested in…</h2>
-<!-- /wp:heading -->
-
-<!-- wp:woocommerce/cart-cross-sells-products-block -->
-<div class="wp-block-woocommerce-cart-cross-sells-products-block"></div>
-<!-- /wp:woocommerce/cart-cross-sells-products-block --></div>
-<!-- /wp:woocommerce/cart-cross-sells-block --></div>
-<!-- /wp:woocommerce/cart-items-block -->
-
-<!-- wp:woocommerce/cart-totals-block -->
-<div class="wp-block-woocommerce-cart-totals-block"><!-- wp:woocommerce/cart-order-summary-block -->
-<div class="wp-block-woocommerce-cart-order-summary-block"><!-- wp:woocommerce/cart-order-summary-heading-block -->
-<div class="wp-block-woocommerce-cart-order-summary-heading-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-heading-block -->
-
-<!-- wp:woocommerce/cart-order-summary-coupon-form-block -->
-<div class="wp-block-woocommerce-cart-order-summary-coupon-form-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-coupon-form-block -->
-
-<!-- wp:woocommerce/cart-order-summary-subtotal-block -->
-<div class="wp-block-woocommerce-cart-order-summary-subtotal-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-subtotal-block -->
-
-<!-- wp:woocommerce/cart-order-summary-fee-block -->
-<div class="wp-block-woocommerce-cart-order-summary-fee-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-fee-block -->
-
-<!-- wp:woocommerce/cart-order-summary-discount-block -->
-<div class="wp-block-woocommerce-cart-order-summary-discount-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-discount-block -->
-
-<!-- wp:woocommerce/cart-order-summary-shipping-block -->
-<div class="wp-block-woocommerce-cart-order-summary-shipping-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-shipping-block -->
-
-<!-- wp:woocommerce/cart-order-summary-taxes-block -->
-<div class="wp-block-woocommerce-cart-order-summary-taxes-block"></div>
-<!-- /wp:woocommerce/cart-order-summary-taxes-block --></div>
-<!-- /wp:woocommerce/cart-order-summary-block -->
-
-<!-- wp:woocommerce/cart-express-payment-block -->
-<div class="wp-block-woocommerce-cart-express-payment-block"></div>
-<!-- /wp:woocommerce/cart-express-payment-block -->
-
-<!-- wp:woocommerce/proceed-to-checkout-block -->
-<div class="wp-block-woocommerce-proceed-to-checkout-block"></div>
-<!-- /wp:woocommerce/proceed-to-checkout-block -->
-
-<!-- wp:woocommerce/cart-accepted-payment-methods-block -->
-<div class="wp-block-woocommerce-cart-accepted-payment-methods-block"></div>
-<!-- /wp:woocommerce/cart-accepted-payment-methods-block --></div>
-<!-- /wp:woocommerce/cart-totals-block --></div>
-<!-- /wp:woocommerce/filled-cart-block -->
-
-<!-- wp:woocommerce/empty-cart-block -->
-<div class="wp-block-woocommerce-empty-cart-block"><!-- wp:heading {"textAlign":"center","className":"with-empty-cart-icon wc-block-cart__empty-cart__title"} -->
-<h2 class="wp-block-heading has-text-align-center with-empty-cart-icon wc-block-cart__empty-cart__title">Your cart is currently empty!</h2>
-<!-- /wp:heading -->
-
-<!-- wp:separator {"className":"is-style-dots"} -->
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots" />
-<!-- /wp:separator -->
-
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center">New in store</h2>
-<!-- /wp:heading -->
-
-<!-- wp:woocommerce/product-new {"columns":4,"rows":1} /--></div>
-<!-- /wp:woocommerce/empty-cart-block --></div>
-<!-- /wp:woocommerce/cart -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>769</wp:post_id>
-		<wp:post_date><![CDATA[2024-07-10 07:16:35]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-07-10 07:16:35]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-02-05 10:14:14]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-02-05 10:14:14]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[cart__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1770286454]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[cart]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Checkout]]></title>
-		<link>https://awplife.com/demo/blog-over/?page_id=770</link>
-		<pubDate>Wed, 10 Jul 2024 07:16:35 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-blogging/checkout/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:woocommerce/checkout -->
-<div class="wp-block-woocommerce-checkout alignwide wc-block-checkout is-loading"><!-- wp:woocommerce/checkout-fields-block -->
-<div class="wp-block-woocommerce-checkout-fields-block"><!-- wp:woocommerce/checkout-express-payment-block -->
-<div class="wp-block-woocommerce-checkout-express-payment-block"></div>
-<!-- /wp:woocommerce/checkout-express-payment-block -->
-
-<!-- wp:woocommerce/checkout-contact-information-block -->
-<div class="wp-block-woocommerce-checkout-contact-information-block"></div>
-<!-- /wp:woocommerce/checkout-contact-information-block -->
-
-<!-- wp:woocommerce/checkout-shipping-method-block -->
-<div class="wp-block-woocommerce-checkout-shipping-method-block"></div>
-<!-- /wp:woocommerce/checkout-shipping-method-block -->
-
-<!-- wp:woocommerce/checkout-pickup-options-block -->
-<div class="wp-block-woocommerce-checkout-pickup-options-block"></div>
-<!-- /wp:woocommerce/checkout-pickup-options-block -->
-
-<!-- wp:woocommerce/checkout-shipping-address-block -->
-<div class="wp-block-woocommerce-checkout-shipping-address-block"></div>
-<!-- /wp:woocommerce/checkout-shipping-address-block -->
-
-<!-- wp:woocommerce/checkout-billing-address-block -->
-<div class="wp-block-woocommerce-checkout-billing-address-block"></div>
-<!-- /wp:woocommerce/checkout-billing-address-block -->
-
-<!-- wp:woocommerce/checkout-shipping-methods-block -->
-<div class="wp-block-woocommerce-checkout-shipping-methods-block"></div>
-<!-- /wp:woocommerce/checkout-shipping-methods-block -->
-
-<!-- wp:woocommerce/checkout-payment-block -->
-<div class="wp-block-woocommerce-checkout-payment-block"></div>
-<!-- /wp:woocommerce/checkout-payment-block -->
-
-<!-- wp:woocommerce/checkout-additional-information-block -->
-<div class="wp-block-woocommerce-checkout-additional-information-block"></div>
-<!-- /wp:woocommerce/checkout-additional-information-block -->
-
-<!-- wp:woocommerce/checkout-order-note-block -->
-<div class="wp-block-woocommerce-checkout-order-note-block"></div>
-<!-- /wp:woocommerce/checkout-order-note-block -->
-
-<!-- wp:woocommerce/checkout-terms-block -->
-<div class="wp-block-woocommerce-checkout-terms-block"></div>
-<!-- /wp:woocommerce/checkout-terms-block -->
-
-<!-- wp:woocommerce/checkout-actions-block -->
-<div class="wp-block-woocommerce-checkout-actions-block"></div>
-<!-- /wp:woocommerce/checkout-actions-block --></div>
-<!-- /wp:woocommerce/checkout-fields-block -->
-
-<!-- wp:woocommerce/checkout-totals-block -->
-<div class="wp-block-woocommerce-checkout-totals-block"><!-- wp:woocommerce/checkout-order-summary-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-block"><!-- wp:woocommerce/checkout-order-summary-cart-items-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-cart-items-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-cart-items-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-coupon-form-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-coupon-form-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-coupon-form-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-subtotal-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-subtotal-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-subtotal-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-fee-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-fee-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-fee-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-discount-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-discount-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-discount-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-shipping-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-shipping-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-shipping-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-taxes-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-taxes-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-taxes-block --></div>
-<!-- /wp:woocommerce/checkout-order-summary-block --></div>
-<!-- /wp:woocommerce/checkout-totals-block --></div>
-<!-- /wp:woocommerce/checkout -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>770</wp:post_id>
-		<wp:post_date><![CDATA[2024-07-10 07:16:35]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-07-10 07:16:35]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-02-05 10:14:27]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-02-05 10:14:27]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[checkout__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1770286467]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[checkout]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[My account]]></title>
-		<link>https://awplife.com/demo/blog-over/?page_id=771</link>
-		<pubDate>Wed, 10 Jul 2024 07:16:35 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-blogging/my-account/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:shortcode -->[woocommerce_my_account]<!-- /wp:shortcode -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>771</wp:post_id>
-		<wp:post_date><![CDATA[2024-07-10 07:16:35]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-07-10 07:16:35]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-02-05 10:14:27]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-02-05 10:14:27]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[my-account__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1770286467]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[my-account]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Customizer Login Page Plugin]]></title>
-		<link>https://awplife.com/demo/blog-over/?page_id=775</link>
-		<pubDate>Sun, 18 Aug 2024 04:46:32 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-blogger/customizer-login-page-plugin/</guid>
-		<description></description>
-		<content:encoded><![CDATA[This page is used by Customizer Login Page Plugin.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>775</wp:post_id>
-		<wp:post_date><![CDATA[2024-08-18 04:46:32]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-08-18 04:46:32]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-02-05 10:14:01]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-02-05 10:14:01]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[customizer-login-page-plugin__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1770286441]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[customizer-login-page-plugin]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[Home]]></title>
 		<link>https://awplife.com/demo/blog-over/home/</link>
 		<pubDate>Tue, 03 Dec 2024 08:53:57 +0000</pubDate>
@@ -5635,6 +5697,195 @@ display: block !important;
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 		<wp:meta_value><![CDATA[templates/frontpage.php]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[MediHealth Center]]></title>
+		<link>https://awplife.com/demo/blog-over/2025/07/28/medihealth-center/</link>
+		<pubDate>Mon, 28 Jul 2025 07:04:21 +0000</pubDate>
+		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
+		<guid isPermaLink="false">https://awplife.com/demo/neom-blogger/?p=785</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">1. What Can Managers Take Away From This Study?</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Digital Talent Ecosystem</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>It is a long-established fact that a reader will be distracted by the readable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Enhanced Improvement</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>It is a long-established fact that a reader will be distracted by the readable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">2. Establish A Digital Talent Ecosystem</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol><!-- wp:list-item -->
+<li>Watch the same movie at the same time and text about your reactions</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Create a shared Spotify playlist and listen together</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Read a chapter of the same book every day and talk about it</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">“To Ensure Good Health: Eat Lightly, Breathe Deeply, Live Moderately, Cultivate Cheerfulness, And Maintain An Interest In Life.”</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>DIANNE RUSSELL</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">3. Establish A Digital Talent Ecosystem</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable. If you are going to use a passage from Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle o</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>785</wp:post_id>
+		<wp:post_date><![CDATA[2025-07-28 07:04:21]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-07-28 07:04:21]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-01-29 07:30:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-01-29 07:30:55]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[medihealth-center]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="post_tag" nicename="auto-industry"><![CDATA[Auto Industry]]></category>
+		<category domain="post_tag" nicename="automobile"><![CDATA[Automobile]]></category>
+		<category domain="category" nicename="bo-chatbot"><![CDATA[CHATBOT]]></category>
+		<category domain="post_tag" nicename="future"><![CDATA[Future]]></category>
+		<category domain="post_tag" nicename="robot"><![CDATA[Robot]]></category>
+		<category domain="category" nicename="bo-technology"><![CDATA[Technology]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[812]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Securing PII With The Help Of Sensitive Content]]></title>
+		<link>https://awplife.com/demo/blog-over/2025/07/28/securing-pii-with-the-help-of-sensitive-content/</link>
+		<pubDate>Mon, 28 Jul 2025 07:04:59 +0000</pubDate>
+		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
+		<guid isPermaLink="false">https://awplife.com/demo/neom-blogger/?p=787</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">1. What Can Managers Take Away From This Study?</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Digital Talent Ecosystem</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>It is a long-established fact that a reader will be distracted by the readable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Enhanced Improvement</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>It is a long-established fact that a reader will be distracted by the readable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">2. Establish A Digital Talent Ecosystem</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol><!-- wp:list-item -->
+<li>Watch the same movie at the same time and text about your reactions</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Create a shared Spotify playlist and listen together</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Read a chapter of the same book every day and talk about it</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">“To Ensure Good Health: Eat Lightly, Breathe Deeply, Live Moderately, Cultivate Cheerfulness, And Maintain An Interest In Life.”</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>DIANNE RUSSELL</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">3. Establish A Digital Talent Ecosystem</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable. If you are going to use a passage from Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of the text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>787</wp:post_id>
+		<wp:post_date><![CDATA[2025-07-28 07:04:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-07-28 07:04:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-01-29 07:31:31]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-01-29 07:31:31]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[securing-pii-with-the-help-of-sensitive-content]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="post_tag" nicename="automobile"><![CDATA[Automobile]]></category>
+		<category domain="category" nicename="bo-chatbot"><![CDATA[CHATBOT]]></category>
+		<category domain="post_tag" nicename="data-analyst"><![CDATA[Data Analyst]]></category>
+		<category domain="category" nicename="bo-digital-marketing"><![CDATA[DIGITAL MARKETING]]></category>
+		<category domain="post_tag" nicename="robot"><![CDATA[Robot]]></category>
+		<category domain="post_tag" nicename="technology"><![CDATA[Technology]]></category>
+		<category domain="category" nicename="bo-technology"><![CDATA[Technology]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[807]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -6306,408 +6557,6 @@ display: block !important;
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
 					<item>
-		<title><![CDATA[Experts Tips In Business]]></title>
-		<link>https://awplife.com/demo/blog-over/2023/02/10/tips-from-experts-in-e-commerce/</link>
-		<pubDate>Fri, 10 Feb 2023 10:46:32 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://wpfrank.com/demo/automobile-avantex-pro/?p=103</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">1. What Can Managers Take Away From This Study?</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Digital Talent Ecosystem</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>It is a long-established fact that a reader will be distracted by the readable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Enhanced Improvement</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>It is a long-established fact that a reader will be distracted by the readable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">2. Establish A Digital Talent Ecosystem</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"ordered":true} -->
-<ol><!-- wp:list-item -->
-<li>Watch the same movie at the same time and text about your reactions</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Create a shared Spotify playlist and listen together</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Read a chapter of the same book every day and talk about it</li>
-<!-- /wp:list-item --></ol>
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">“To Ensure Good Health: Eat Lightly, Breathe Deeply, Live Moderately, Cultivate Cheerfulness, And Maintain An Interest In Life.”</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>DIANNE RUSSELL</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">3. Establish A Digital Talent Ecosystem</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, </p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>175</wp:post_id>
-		<wp:post_date><![CDATA[2023-02-10 10:46:32]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2023-02-10 10:46:32]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-01-29 07:28:55]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-01-29 07:28:55]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[tips-from-experts-in-e-commerce]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>6</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="post_tag" nicename="auto-industry"><![CDATA[Auto Industry]]></category>
-		<category domain="post_tag" nicename="data-analyst"><![CDATA[Data Analyst]]></category>
-		<category domain="category" nicename="digital-marketing"><![CDATA[DIGITAL MARKETING]]></category>
-		<category domain="post_tag" nicename="driving"><![CDATA[Driving]]></category>
-		<category domain="post_tag" nicename="visual"><![CDATA[Visual]]></category>
-		<category domain="category" nicename="website"><![CDATA[WEBSITE]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_oembed_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<a data-flickr-embed='true' href='https://www.flickr.com/photos/131865524@N07' title='FARAZ FRANK'><img src='https://live.staticflickr.com/65535/52686617693_fb297c5e23.jpg' width='800' height='600' alt='Vizion-spire'></a><script async src='https://embedr.flickr.com/assets/client-code.js' charset='utf-8'></script>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_oembed_time_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1684245046]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
-		<wp:meta_value><![CDATA[8]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_oembed_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<a data-flickr-embed='true' href='https://www.flickr.com/photos/131865524@N07' title='FARAZ FRANK'><img src='https://live.staticflickr.com/65535/52686617693_fb297c5e23.jpg' width='800' height='600' alt='Vizion-spire'></a><script async src='https://embedr.flickr.com/assets/client-code.js' charset='utf-8'></script>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_oembed_time_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1684245046]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
-		<wp:meta_value><![CDATA[8]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[826]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Team Work With Minimal Spending]]></title>
-		<link>https://awplife.com/demo/blog-over/2023/02/10/how-to-have-a-team-work-with-minimal-spending/</link>
-		<pubDate>Fri, 10 Feb 2023 10:53:44 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://wpfrank.com/demo/automobile-avantex-pro/?p=106</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">1. What Can Managers Take Away From This Study?</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Digital Talent Ecosystem</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>It is a long-established fact that a reader will be distracted by the readable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Enhanced Improvement</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>It is a long-established fact that a reader will be distracted by the readable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">2. Establish A Digital Talent Ecosystem</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"ordered":true} -->
-<ol><!-- wp:list-item -->
-<li>Watch the same movie at the same time and text about your reactions</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Create a shared Spotify playlist and listen together</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Read a chapter of the same book every day and talk about it</li>
-<!-- /wp:list-item --></ol>
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">“To Ensure Good Health: Eat Lightly, Breathe Deeply, Live Moderately, Cultivate Cheerfulness, And Maintain An Interest In Life.”</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>DIANNE RUSSELL</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">3. Establish A Digital Talent Ecosystem</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable. If you are going to use a passage from Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of the text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>176</wp:post_id>
-		<wp:post_date><![CDATA[2023-02-10 10:53:44]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2023-02-10 10:53:44]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-01-29 07:29:28]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-01-29 07:29:28]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[how-to-have-a-team-work-with-minimal-spending]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="post_tag" nicename="action"><![CDATA[action]]></category>
-		<category domain="post_tag" nicename="automobile"><![CDATA[Automobile]]></category>
-		<category domain="post_tag" nicename="data-analyst"><![CDATA[Data Analyst]]></category>
-		<category domain="category" nicename="digital-marketing"><![CDATA[DIGITAL MARKETING]]></category>
-		<category domain="post_tag" nicename="technology"><![CDATA[Technology]]></category>
-		<category domain="category" nicename="technology"><![CDATA[Technology]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_oembed_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<a data-flickr-embed='true' href='https://www.flickr.com/photos/131865524@N07' title='FARAZ FRANK'><img src='https://live.staticflickr.com/65535/52686617693_fb297c5e23.jpg' width='800' height='600' alt='Vizion-spire'></a><script async src='https://embedr.flickr.com/assets/client-code.js' charset='utf-8'></script>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_oembed_time_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1679397664]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
-		<wp:meta_value><![CDATA[5]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_oembed_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<a data-flickr-embed='true' href='https://www.flickr.com/photos/131865524@N07' title='FARAZ FRANK'><img src='https://live.staticflickr.com/65535/52686617693_fb297c5e23.jpg' width='800' height='600' alt='Vizion-spire'></a><script async src='https://embedr.flickr.com/assets/client-code.js' charset='utf-8'></script>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_oembed_time_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1679397664]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
-		<wp:meta_value><![CDATA[5]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[819]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[The New Visual Building Is Here]]></title>
-		<link>https://awplife.com/demo/blog-over/2023/02/10/the-new-visual-builder-is-here/</link>
-		<pubDate>Fri, 10 Feb 2023 10:55:51 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://wpfrank.com/demo/automobile-avantex-pro/?p=108</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">1. What Can Managers Take Away From This Study?</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Digital Talent Ecosystem</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>It is a long-established fact that a reader will be distracted by the readable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Enhanced Improvement</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>It is a long-established fact that a reader will be distracted by the readable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">2. Establish A Digital Talent Ecosystem</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"ordered":true} -->
-<ol><!-- wp:list-item -->
-<li>Watch the same movie at the same time and text about your reactions</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Create a shared Spotify playlist and listen together</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Read a chapter of the same book every day and talk about it</li>
-<!-- /wp:list-item --></ol>
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">“To Ensure Good Health: Eat Lightly, Breathe Deeply, Live Moderately, Cultivate Cheerfulness, And Maintain An Interest In Life.”</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>DIANNE RUSSELL</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">3. Establish A Digital Talent Ecosystem</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable. If you are going to use a passage from Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of the text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>177</wp:post_id>
-		<wp:post_date><![CDATA[2023-02-10 10:55:51]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2023-02-10 10:55:51]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-01-29 07:30:14]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-01-29 07:30:14]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[the-new-visual-builder-is-here]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="post_tag" nicename="builder"><![CDATA[Builder]]></category>
-		<category domain="category" nicename="building"><![CDATA[Building]]></category>
-		<category domain="category" nicename="digital-marketing"><![CDATA[DIGITAL MARKETING]]></category>
-		<category domain="post_tag" nicename="future"><![CDATA[Future]]></category>
-		<category domain="post_tag" nicename="technology"><![CDATA[Technology]]></category>
-		<category domain="post_tag" nicename="visual"><![CDATA[Visual]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_oembed_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<a data-flickr-embed='true' href='https://www.flickr.com/photos/131865524@N07' title='FARAZ FRANK'><img src='https://live.staticflickr.com/65535/52686617693_fb297c5e23.jpg' width='800' height='600' alt='Vizion-spire'></a><script async src='https://embedr.flickr.com/assets/client-code.js' charset='utf-8'></script>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_oembed_time_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1684243020]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
-		<wp:meta_value><![CDATA[9]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_oembed_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<a data-flickr-embed='true' href='https://www.flickr.com/photos/131865524@N07' title='FARAZ FRANK'><img src='https://live.staticflickr.com/65535/52686617693_fb297c5e23.jpg' width='800' height='600' alt='Vizion-spire'></a><script async src='https://embedr.flickr.com/assets/client-code.js' charset='utf-8'></script>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_oembed_time_b7273b72e4f8b3b533fc7e4fc5d2faad]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1684243020]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
-		<wp:meta_value><![CDATA[9]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[817]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[]]></title>
 		<link>https://awplife.com/demo/blog-over/2023/10/03/page-cart/</link>
 		<pubDate>Tue, 03 Oct 2023 10:53:00 +0000</pubDate>
@@ -6816,195 +6665,6 @@ display: block !important;
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
 					<item>
-		<title><![CDATA[MediHealth Center]]></title>
-		<link>https://awplife.com/demo/blog-over/2025/07/28/medihealth-center/</link>
-		<pubDate>Mon, 28 Jul 2025 07:04:21 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-blogger/?p=785</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">1. What Can Managers Take Away From This Study?</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Digital Talent Ecosystem</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>It is a long-established fact that a reader will be distracted by the readable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Enhanced Improvement</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>It is a long-established fact that a reader will be distracted by the readable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">2. Establish A Digital Talent Ecosystem</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"ordered":true} -->
-<ol><!-- wp:list-item -->
-<li>Watch the same movie at the same time and text about your reactions</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Create a shared Spotify playlist and listen together</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Read a chapter of the same book every day and talk about it</li>
-<!-- /wp:list-item --></ol>
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">“To Ensure Good Health: Eat Lightly, Breathe Deeply, Live Moderately, Cultivate Cheerfulness, And Maintain An Interest In Life.”</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>DIANNE RUSSELL</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">3. Establish A Digital Talent Ecosystem</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable. If you are going to use a passage from Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle o</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>785</wp:post_id>
-		<wp:post_date><![CDATA[2025-07-28 07:04:21]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-07-28 07:04:21]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-01-29 07:30:55]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-01-29 07:30:55]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[medihealth-center]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="post_tag" nicename="auto-industry"><![CDATA[Auto Industry]]></category>
-		<category domain="post_tag" nicename="automobile"><![CDATA[Automobile]]></category>
-		<category domain="category" nicename="chatbot"><![CDATA[CHATBOT]]></category>
-		<category domain="post_tag" nicename="future"><![CDATA[Future]]></category>
-		<category domain="post_tag" nicename="robot"><![CDATA[Robot]]></category>
-		<category domain="category" nicename="technology"><![CDATA[Technology]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[812]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Securing PII With The Help Of Sensitive Content]]></title>
-		<link>https://awplife.com/demo/blog-over/2025/07/28/securing-pii-with-the-help-of-sensitive-content/</link>
-		<pubDate>Mon, 28 Jul 2025 07:04:59 +0000</pubDate>
-		<dc:creator><![CDATA[awordpresslife]]></dc:creator>
-		<guid isPermaLink="false">https://awplife.com/demo/neom-blogger/?p=787</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">1. What Can Managers Take Away From This Study?</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Digital Talent Ecosystem</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>It is a long-established fact that a reader will be distracted by the readable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Enhanced Improvement</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>It is a long-established fact that a reader will be distracted by the readable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">2. Establish A Digital Talent Ecosystem</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"ordered":true} -->
-<ol><!-- wp:list-item -->
-<li>Watch the same movie at the same time and text about your reactions</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Create a shared Spotify playlist and listen together</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Read a chapter of the same book every day and talk about it</li>
-<!-- /wp:list-item --></ol>
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">“To Ensure Good Health: Eat Lightly, Breathe Deeply, Live Moderately, Cultivate Cheerfulness, And Maintain An Interest In Life.”</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>DIANNE RUSSELL</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">3. Establish A Digital Talent Ecosystem</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words that don’t look even slightly believable. If you are going to use a passage from Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of the text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>787</wp:post_id>
-		<wp:post_date><![CDATA[2025-07-28 07:04:59]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-07-28 07:04:59]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-01-29 07:31:31]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-01-29 07:31:31]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[securing-pii-with-the-help-of-sensitive-content]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="post_tag" nicename="automobile"><![CDATA[Automobile]]></category>
-		<category domain="category" nicename="chatbot"><![CDATA[CHATBOT]]></category>
-		<category domain="post_tag" nicename="data-analyst"><![CDATA[Data Analyst]]></category>
-		<category domain="category" nicename="digital-marketing"><![CDATA[DIGITAL MARKETING]]></category>
-		<category domain="post_tag" nicename="robot"><![CDATA[Robot]]></category>
-		<category domain="post_tag" nicename="technology"><![CDATA[Technology]]></category>
-		<category domain="category" nicename="technology"><![CDATA[Technology]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[807]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[Robots Future Classes]]></title>
 		<link>https://awplife.com/demo/blog-over/2025/07/28/robots-future-classes/</link>
 		<pubDate>Mon, 28 Jul 2025 07:05:37 +0000</pubDate>
@@ -7087,12 +6747,12 @@ display: block !important;
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="chatbot"><![CDATA[CHATBOT]]></category>
+										<category domain="category" nicename="bo-chatbot"><![CDATA[CHATBOT]]></category>
 		<category domain="post_tag" nicename="future"><![CDATA[Future]]></category>
 		<category domain="post_tag" nicename="robot"><![CDATA[Robot]]></category>
 		<category domain="post_tag" nicename="technology"><![CDATA[Technology]]></category>
 		<category domain="post_tag" nicename="visual"><![CDATA[Visual]]></category>
-		<category domain="category" nicename="website"><![CDATA[WEBSITE]]></category>
+		<category domain="category" nicename="bo-website"><![CDATA[WEBSITE]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 		<wp:meta_value><![CDATA[809]]></wp:meta_value>
@@ -7175,9 +6835,9 @@ display: block !important;
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="chatbot"><![CDATA[CHATBOT]]></category>
+										<category domain="category" nicename="bo-chatbot"><![CDATA[CHATBOT]]></category>
 		<category domain="post_tag" nicename="style"><![CDATA[Style]]></category>
-		<category domain="category" nicename="style"><![CDATA[Style]]></category>
+		<category domain="category" nicename="bo-style"><![CDATA[Style]]></category>
 		<category domain="post_tag" nicename="visual"><![CDATA[Visual]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
@@ -7295,8 +6955,8 @@ display: block !important;
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="building"><![CDATA[Building]]></category>
-		<category domain="category" nicename="style"><![CDATA[Style]]></category>
+										<category domain="category" nicename="bo-building"><![CDATA[Building]]></category>
+		<category domain="category" nicename="bo-style"><![CDATA[Style]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_oembed_5e852fc66ebec0b48d31713e2d1bf61d]]></wp:meta_key>
 		<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
@@ -7347,7 +7007,7 @@ display: block !important;
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="style"><![CDATA[Style]]></category>
+										<category domain="category" nicename="bo-style"><![CDATA[Style]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 		<wp:meta_value><![CDATA[845]]></wp:meta_value>
