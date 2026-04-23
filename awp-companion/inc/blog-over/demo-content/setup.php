@@ -7,7 +7,7 @@ if (!defined('ABSPATH')) {
  * Blog Over — Demo Content Setup (OCDI Integration)
  *
  * Registers demos directly for the Blog Over theme, following
- * the same pattern as Neom and Formula themes.
+ * the same pattern as other themes.
  *
  * @package awp-companion
  * @since   1.5.3
@@ -34,6 +34,33 @@ if (!function_exists('blog_over_starter_sites_import_files')) {
                 'import_customizer_file_url' => $demo_url . 'inc/blog-over/demo-content/default/blog-over.dat',
                 'preview_url' => 'https://awplife.com/demo/blog-over/',
                 'import_preview_image_url' => $demo_url . 'inc/blog-over/demo-content/default/screenshot.png',
+            ),
+            array(
+                'import_file_name' => esc_html__('Blog Over Dark', 'awp-companion'),
+                'categories' => array('Free Demos'),
+                'import_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-dark/blog-over-dark.xml',
+                'import_widget_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-dark/blog-over-dark.wie',
+                'import_customizer_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-dark/blog-over-dark.dat',
+                'preview_url' => 'https://awplife.com/demo/blog-over-dark/',
+                'import_preview_image_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-dark/screenshot.webp',
+            ),
+            array(
+                'import_file_name' => esc_html__('Blog Over Minimal', 'awp-companion'),
+                'categories' => array('Free Demos'),
+                'import_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-minimal/blog-over-minimal.xml',
+                'import_widget_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-minimal/blog-over-minimal.wie',
+                'import_customizer_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-minimal/blog-over-minimal.dat',
+                'preview_url' => 'https://awplife.com/demo/blog-over-minimal/',
+                'import_preview_image_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-minimal/screenshot.webp',
+            ),
+            array(
+                'import_file_name' => esc_html__('Blog Over Magzine', 'awp-companion'),
+                'categories' => array('Pro Demos'),
+                'import_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-magzine/blog-over-magzine.xml',
+                'import_widget_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-magzine/blog-over-magzine.wie',
+                'import_customizer_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-magzine/blog-over-magzine.dat',
+                'preview_url' => 'https://awplife.com/demo/blog-over-magzine/',
+                'import_preview_image_url' => 'https://awplife.com/wp-content/uploads/2026/03/blog-over-magzine.webp',
             ),
         );
     }
@@ -72,6 +99,22 @@ if (!function_exists('blog_over_starter_sites_after_import')) {
     }
 }
 add_action('pt-ocdi/after_import', 'blog_over_starter_sites_after_import');
+
+
+function blog_over_starter_sites_ocdi_css() {
+    // Check if the current screen is not the customizer
+    if ( is_admin() && !is_customize_preview() ) { ?>
+        <style>
+            .ocdi__gl-item:nth-child(n+4) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about, .ocdi__intro-text {
+                display: none;
+            }
+            .ocdi__gl-item-image-container::after {
+                padding-top: 75% !important;
+            }
+        </style>
+    <?php }
+}
+add_action( 'admin_head', 'blog_over_starter_sites_ocdi_css' );
 
 /**
  * Customize the OCDI admin page for Blog Over.
