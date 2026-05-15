@@ -62,6 +62,15 @@ if (!function_exists('blog_over_starter_sites_import_files')) {
                 'preview_url' => 'https://awplife.com/demo/blog-over-magzine/',
                 'import_preview_image_url' => 'https://awplife.com/wp-content/uploads/2026/03/blog-over-magzine.webp',
             ),
+            array(
+                'import_file_name' => esc_html__('Blog Over Post', 'awp-companion'),
+                'categories' => array('Pro Demos'),
+                'import_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-post/blog-over-post.xml',
+                'import_widget_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-post/blog-over-post.wie',
+                'import_customizer_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-post/blog-over-post.dat',
+                'preview_url' => 'https://awplife.com/demo/blog-over-post/',
+                'import_preview_image_url' => 'https://awplife.com/wp-content/uploads/2026/03/blog-over-post.webp',
+            ),
         );
     }
 }

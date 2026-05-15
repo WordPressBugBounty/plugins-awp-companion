@@ -4,7 +4,7 @@ Donate link: https://paypal.me/awplife
 Tags: frontpage, companion, homepage, WordPress frontpage, template
 Requires at least: 4.6
 Tested up to: 6.9
-Stable tag: 1.5.8
+Stable tag: 1.5.9
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -101,6 +101,10 @@ https://pixabay.com/photos/bedroom-visualization-4696556/
 Have any queries?
 
 == Changelog ==
+= 1.5.9 =
+* Added support and demo files for "Blog Over Minimal" child theme.
+* Synced with the latest Blog Over theme structure and Dark Mode functionality.
+
 = 1.5.8 =
 * Demo Files Added
 
