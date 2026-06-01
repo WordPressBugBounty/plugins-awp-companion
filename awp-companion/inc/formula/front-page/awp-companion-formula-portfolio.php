@@ -218,21 +218,57 @@ if ( $formula_portfolio_disabled == true ) :
 						<div class="item wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
 							<article class="post">
 								<figure class="portfolio-thumbnail">
-									<img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/portfolio/p1.jpg" alt="Print Media">
+									<img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/portfolio/p1.jpg" alt="Branding Identity">
+									<figcaption>
+										<div class="portfolio-overlay">
+											<div class="portfolio-overlay-inner">
+												<div class="portfolio-icons">
+													<a href="<?php echo awp_companion_plugin_url; ?>inc/formula/img/portfolio/p1.jpg" data-lightbox="image" class="click"><i class="fas fa-eye"></i></a>
+													<a href="#"><i class="fas fa-link"></i></a>
+												</div>
+											</div>
+										</div>
+										<p class="branding"><?php _e('GRAPHIC', 'formula'); ?></p>
+										<h5 class="entry-title"><a href="#"><?php _e('Branding Identity', 'formula'); ?></a></h5>
+									</figcaption>
 								</figure>
 							</article>
 						</div>
 						<div class="item wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
 							<article class="post">
 								<figure class="portfolio-thumbnail">
-									<img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/portfolio/p2.jpg" alt="Print Media">
+									<img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/portfolio/p2.jpg" alt="Creative Design">
+									<figcaption>
+										<div class="portfolio-overlay">
+											<div class="portfolio-overlay-inner">
+												<div class="portfolio-icons">
+													<a href="<?php echo awp_companion_plugin_url; ?>inc/formula/img/portfolio/p2.jpg" data-lightbox="image" class="click"><i class="fas fa-eye"></i></a>
+													<a href="#"><i class="fas fa-link"></i></a>
+												</div>
+											</div>
+										</div>
+										<p class="branding"><?php _e('DEVELOPMENT', 'formula'); ?></p>
+										<h5 class="entry-title"><a href="#"><?php _e('Creative Design', 'formula'); ?></a></h5>
+									</figcaption>
 								</figure>
 							</article>
 						</div>
 						<div class="item wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
 							<article class="post">
 								<figure class="portfolio-thumbnail">
-									<img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/portfolio/p3.jpg" alt="Print Media">
+									<img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/portfolio/p3.jpg" alt="Minimalist Mockup">
+									<figcaption>
+										<div class="portfolio-overlay">
+											<div class="portfolio-overlay-inner">
+												<div class="portfolio-icons">
+													<a href="<?php echo awp_companion_plugin_url; ?>inc/formula/img/portfolio/p3.jpg" data-lightbox="image" class="click"><i class="fas fa-eye"></i></a>
+													<a href="#"><i class="fas fa-link"></i></a>
+												</div>
+											</div>
+										</div>
+										<p class="branding"><?php _e('PHOTOGRAPHY', 'formula'); ?></p>
+										<h5 class="entry-title"><a href="#"><?php _e('Minimalist Mockup', 'formula'); ?></a></h5>
+									</figcaption>
 								</figure>
 							</article>
 						</div>

@@ -148,9 +148,9 @@ if ( 'Formula Light' == $activate_theme ) {
 				$formula_service_data->default = json_encode(
 					array(
 						array(
-							'title'        => esc_html__( 'Digital Marketing', 'formula' ),
-							'text'         => esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin, est eu vehicula pulvinar.', 'formula' ),
-							'subtitle'     => esc_html__( 'Know More ', 'formula' ),
+							'title'        => esc_html__( 'MARKETING STRATEGY', 'formula' ),
+							'text'         => esc_html__( 'Develop targeted campaigns that resonate with your core audience and drive meaningful conversion.', 'formula' ),
+							'subtitle'     => esc_html__( 'Learn More', 'formula' ),
 							'image_url'    => awp_companion_plugin_url . 'inc/formula/img/service/s1.png',
 							'choice'       => 'customizer_repeater_image',
 							'link'         => '#',
@@ -158,9 +158,9 @@ if ( 'Formula Light' == $activate_theme ) {
 							'id'           => 'customizer_repeater_56d7ea7f40b15',
 						),
 						array(
-							'title'        => esc_html__( 'eCommerce', 'formula' ),
-							'text'         => esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin, est eu vehicula pulvinar.', 'formula' ),
-							'subtitle'     => esc_html__( 'Know More ', 'formula' ),
+							'title'        => esc_html__( 'WEBSITE DEVELOPMENT', 'formula' ),
+							'text'         => esc_html__( 'High-performance, bespoke digital platforms engineered for scale, reliability, and user experience.', 'formula' ),
+							'subtitle'     => esc_html__( 'Start Now', 'formula' ),
 							'image_url'    => awp_companion_plugin_url . 'inc/formula/img/service/s2.png',
 							'choice'       => 'customizer_repeater_image',
 							'link'         => '#',
@@ -168,9 +168,9 @@ if ( 'Formula Light' == $activate_theme ) {
 							'id'           => 'customizer_repeater_56d7ea7f40b16',
 						),
 						array(
-							'title'        => esc_html__( 'Branding Design', 'formula' ),
-							'text'         => esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin, est eu vehicula pulvinar.', 'formula' ),
-							'subtitle'     => esc_html__( 'Know More ', 'formula' ),
+							'title'        => esc_html__( 'MODERN & RESPONSIVE DESIGN', 'formula' ),
+							'text'         => esc_html__( 'Award-winning visual aesthetics that maintain integrity and usability across all device form factors.', 'formula' ),
+							'subtitle'     => esc_html__( 'Explore More', 'formula' ),
 							'image_url'    => awp_companion_plugin_url . 'inc/formula/img/service/s3.png',
 							'choice'       => 'customizer_repeater_image',
 							'link'         => '#',
@@ -192,10 +192,10 @@ if ( 'Formula Light' == $activate_theme ) {
 				$formula_testimonial_data->default = json_encode(
 					array(
 						array(
-							'title'          => '"',
-							'text'           => 'I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.',
-							'subtitle'       => esc_html__( 'Billu Gol', 'formula' ),
-							'designation'    => esc_html__( 'CEO, Agrok Inc.', 'formula' ),
+							'title'          => esc_html__( 'Creative & Professional', 'formula' ),
+							'text'           => esc_html__( 'It is a long established fact that a reader ill be distracted by the readable content of a page when looking at its layout. It vaese tam simplic quam Occidental in fact.', 'formula' ),
+							'subtitle'       => esc_html__( 'Annah Montana', 'formula' ),
+							'designation'    => esc_html__( 'CEO & FOUNDER', 'formula' ),
 							'link'           => '#',
 							'image_url'      => awp_companion_plugin_url . 'inc/formula/img/testimonial/test1.png',
 							'rating_control' => 'customizer_repeater_rating_control_five',
@@ -203,10 +203,10 @@ if ( 'Formula Light' == $activate_theme ) {
 							'id'             => 'customizer_repeater_56d7ea7f40b96',
 						),
 						array(
-							'title'          => '"',
-							'text'           => 'It is a long established fact that a reader ill be distracted by the readable content of a page when looking at its layout. It vaese tam simplic quam Occidental in fact.',
-							'subtitle'       => esc_html__( 'Mark Agroiks', 'formula' ),
-							'designation'    => esc_html__( 'CEO, Apce.co', 'formula' ),
+							'title'          => esc_html__( 'I Highly Recommended', 'formula' ),
+							'text'           => esc_html__( 'It is a long established fact that a reader ill be distracted by the readable content of a page when looking at its layout. It vaese tam simplic quam Occidental in fact.', 'formula' ),
+							'subtitle'       => esc_html__( 'Jenifer Albert', 'formula' ),
+							'designation'    => esc_html__( 'MANAGER', 'formula' ),
 							'link'           => '#',
 							'image_url'      => awp_companion_plugin_url . 'inc/formula/img/testimonial/test2.png',
 							'rating_control' => 'customizer_repeater_rating_control_four',
@@ -388,22 +388,44 @@ if ( 'Formula Light' == $activate_theme ) {
 				$formula_client_data->default = json_encode(
 					array(
 						array(
+							'title'        => 'Apex Global',
+							'subtitle'     => 'LOGISTICS & SUPPLY',
 							'link'         => '#',
-							'image_url'    => awp_companion_plugin_url . 'inc/formula/img/client/c1.jpg',
+							'image_url'    => awp_companion_plugin_url . 'inc/formula/img/client/Apex Global.png',
 							'open_new_tab' => 'no',
 							'id'           => 'customizer_repeater_56d7ea7f40b96',
 						),
 						array(
+							'title'        => 'Quantum Soft',
+							'subtitle'     => 'CLOUD INFRASTRUCTURE',
 							'link'         => '#',
-							'image_url'    => awp_companion_plugin_url . 'inc/formula/img/client/c2.jpg',
+							'image_url'    => awp_companion_plugin_url . 'inc/formula/img/client/Quantum Soft.png',
 							'open_new_tab' => 'no',
 							'id'           => 'customizer_repeater_56d7ea7f40b97',
 						),
 						array(
+							'title'        => 'Lumina Media',
+							'subtitle'     => 'DIGITAL CONTENT',
 							'link'         => '#',
-							'image_url'    => awp_companion_plugin_url . 'inc/formula/img/client/c3.jpg',
+							'image_url'    => awp_companion_plugin_url . 'inc/formula/img/client/Lumina Media.png',
 							'open_new_tab' => 'no',
 							'id'           => 'customizer_repeater_56d7ea7f40b98',
+						),
+						array(
+							'title'        => 'Vanguard Est',
+							'subtitle'     => 'GLOBAL PROPERTY',
+							'link'         => '#',
+							'image_url'    => awp_companion_plugin_url . 'inc/formula/img/client/Vanguard Est.png',
+							'open_new_tab' => 'no',
+							'id'           => 'customizer_repeater_56d7ea7f40b99',
+						),
+						array(
+							'title'        => 'Capital Fin',
+							'subtitle'     => 'STRATEGIC ASSETS',
+							'link'         => '#',
+							'image_url'    => awp_companion_plugin_url . 'inc/formula/img/client/Capital Fin.png',
+							'open_new_tab' => 'no',
+							'id'           => 'customizer_repeater_56d7ea7f40ba0',
 						),
 					)
 				);

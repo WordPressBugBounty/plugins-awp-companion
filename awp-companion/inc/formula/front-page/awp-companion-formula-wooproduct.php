@@ -51,28 +51,48 @@ if ( class_exists( 'WooCommerce' ) ) {
 				?>
 					<div class="item wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
 						<div class="woocommerce-module">
-							<?php if ( $product->is_on_sale() ) : ?>
-								<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale">' . esc_html__( 'On Sale!', 'formula' ) . '</span>', $loop->post, $product ); ?>
-							<?php endif; ?>
-							<figure class="woocommerce-avatar">
-								<a href="<?php the_permalink(); ?>">
-									<img class="img-responsive" src="<?php echo the_post_thumbnail_url(); ?>" alt="Jane Smith">
+							<div class="woo-img-wrapper">
+								<?php if ( $product->is_on_sale() ) : ?>
+									<span class="onsale"><?php esc_html_e( 'ON SALE!', 'formula' ); ?></span>
+								<?php endif; ?>
+								<a href="#" class="woo-wishlist-heart" onclick="return false;" title="<?php esc_attr_e( 'Add to Wishlist', 'formula' ); ?>"><i class="far fa-heart"></i></a>
+								<a href="<?php the_permalink(); ?>" class="woo-img-link">
+									<img class="img-responsive woo-product-img" src="<?php echo the_post_thumbnail_url(); ?>" alt="<?php the_title_attribute(); ?>">
 								</a>
-								<figcaption>
-									<div class="woo-overlay">
-										<div class="woo-overlay-inner">
-											<div class="woo-icons">
-												<a href="<?php echo get_permalink(); ?>" class="woo-product-view"><i class="fas fa-eye"></i></a> 
-												<?php woocommerce_template_loop_add_to_cart( $loop->post, $product ); ?>
-											</div>
-										</div>
+								
+								<!-- Hover Slide-In Icons Bar -->
+								<div class="woo-hover-icons-bar">
+									<a href="<?php the_permalink(); ?>" class="woo-view-btn" title="<?php esc_attr_e( 'View Product', 'formula' ); ?>">
+										<i class="fas fa-eye"></i>
+									</a>
+									<div class="woo-add-btn-wrapper">
+										<?php woocommerce_template_loop_add_to_cart( $loop->post, $product ); ?>
 									</div>
-									<p class="price"><?php echo $product->get_price_html(); ?></p>
-									<h5 class="entry-title">
-										<a  href="<?php echo the_permalink(); ?>"><?php the_title(); ?></a>
-									</h5>
-								</figcaption>
-							</figure>
+								</div>
+							</div>
+							<div class="woo-info-wrapper">
+								<div class="woo-meta-row">
+									<?php
+									$categories = wp_get_post_terms( get_the_ID(), 'product_cat' );
+									$category_name = ! empty( $categories ) ? esc_html( $categories[0]->name ) : esc_html__( 'APPAREL', 'formula' );
+									?>
+									<span class="woo-category"><?php echo esc_html( strtoupper( $category_name ) ); ?></span>
+									
+									<?php
+									$average_rating = $product->get_average_rating();
+									if ( $average_rating > 0 ) :
+										$rating_val = number_format( (float)$average_rating, 1, '.', '' );
+									?>
+										<span class="woo-rating"><i class="fas fa-star"></i> <?php echo esc_html( $rating_val ); ?></span>
+									<?php endif; ?>
+								</div>
+								<h3 class="woo-product-title">
+									<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+								</h3>
+								<div class="woo-footer-row">
+									<span class="woo-price"><?php echo $product->get_price_html(); ?></span>
+								</div>
+							</div>
 						</div>
 					</div>
 				<?php endwhile; ?>
@@ -106,6 +126,29 @@ if ( class_exists( 'WooCommerce' ) ) {
 				480:{ items:1 },
 				768:{ items:2 },
 				1000:{ items:<?php echo esc_attr( $formula_woocommerce_column_layout ); ?> }
+			}
+		});
+
+		// Interactive Wishlist Heart Toggle & Heartbeat Animation
+		jQuery(document).on('click', '.woo-wishlist-heart', function(e) {
+			e.preventDefault();
+			var $heart = jQuery(this);
+			var $icon = $heart.find('i');
+			
+			if ($icon.hasClass('far')) {
+				// Toggle to solid red active heart
+				$icon.removeClass('far fa-heart').addClass('fas fa-heart');
+				$heart.addClass('active');
+				
+				// Trigger heartbeat pulse micro-animation
+				$heart.addClass('heartbeat-anim');
+				setTimeout(function() {
+					$heart.removeClass('heartbeat-anim');
+				}, 600);
+			} else {
+				// Toggle back to clean outlined heart
+				$icon.removeClass('fas fa-heart').addClass('far fa-heart');
+				$heart.removeClass('active');
 			}
 		});
 	});

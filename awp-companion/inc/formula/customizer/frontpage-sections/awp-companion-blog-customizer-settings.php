@@ -88,7 +88,7 @@ if ( ! class_exists( 'formula_Customize_Homepage_Blog_Option' ) ) :
 				'formula_blog_count' => array(
 					'setting' => array(
 						'default'           => array(
-							'slider' => 4,
+							'slider' => 3,
 							'suffix' => '',
 						),
 						'sanitize_callback' => array( 'formula_Customizer_Sanitize', 'sanitize_slider' ),

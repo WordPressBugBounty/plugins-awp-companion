@@ -399,6 +399,8 @@ function awp_formula_frontpage_sections_settings( $wp_customize ) {
 					'add_field_label'                      => esc_html__( 'Add new Client item', 'formula' ),
 					'item_name'                            => esc_html__( 'Client Item', 'formula' ),
 					'priority'                             => 9,
+					'customizer_repeater_title_control'    => true,
+					'customizer_repeater_subtitle_control' => true,
 					'customizer_repeater_link_control'     => true,
 					'customizer_repeater_image_control'    => true,
 					'customizer_repeater_checkbox_control' => true,
@@ -715,7 +717,7 @@ function AWP_formula_Customizer_selective_refresh_settings( $wp_customize ) {
 	$wp_customize->add_setting(
 		'formula_client_area_title',
 		array(
-			'default'           => '',
+			'default'           => __( 'Meet The Partners', 'formula' ),
 			'sanitize_callback' => 'formula_sanitize_text',
 			'transport'         => $selective_refresh,
 		)
@@ -734,7 +736,7 @@ function AWP_formula_Customizer_selective_refresh_settings( $wp_customize ) {
 	$wp_customize->add_setting(
 		'formula_client_area_desc',
 		array(
-			'default'           => '',
+			'default'           => __( 'SPONSORS', 'formula' ),
 			'sanitize_callback' => 'formula_sanitize_text',
 			'transport'         => $selective_refresh,
 		)

@@ -130,13 +130,13 @@ if ( $formula_testimonial_disabled == true ) :
 						<div class="item">
 							<blockquote class="review">
 								<aside class="wt-content">
-									<h4 class="wt-title"><?php _e( '"', 'formula' ); ?></h4>
-									<p><?php _e( 'I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.', 'formula' ); ?></p></p>
+									<h4 class="wt-title"><?php _e( 'Creative & Professional', 'formula' ); ?></h4>
+									<p><?php _e( 'It is a long established fact that a reader ill be distracted by the readable content of a page when looking at its layout. It vaese tam simplic quam Occidental in fact.', 'formula' ); ?></p>
 								</aside>
 								<article class="client-info">
 									<figure class="client-thumbnail"><img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/testimonial/test1.png" class="img-circle" alt="testimonial"></figure>
-									<cite class="client-name"><?php _e( 'Billu Gol', 'formula' ); ?></cite>
-									<span class="client-designation"><?php _e( 'CEO, Agrok Inc.', 'formula' ); ?></span>
+									<cite class="client-name"><?php _e( 'Annah Montana', 'formula' ); ?></cite>
+									<span class="client-designation"><?php _e( 'CEO & FOUNDER', 'formula' ); ?></span>
 								</article>
 								<div class="icon-quote">
 									<img src="<?php echo awp_companion_plugin_url; ?>/inc/formula/img/testimonial/quote.png">
@@ -147,13 +147,13 @@ if ( $formula_testimonial_disabled == true ) :
 						<div class="item">
 							<blockquote class="review">
 								<aside class="wt-content">
-									<h4 class="wt-title"><?php _e( '"', 'formula' ); ?></h4>
-									<p><?php _e( 'It is a long established fact that a reader ill be distracted by the readable content of a page when looking at its layout.', 'formula' ); ?></p></p>
+									<h4 class="wt-title"><?php _e( 'I Highly Recommended', 'formula' ); ?></h4>
+									<p><?php _e( 'It is a long established fact that a reader ill be distracted by the readable content of a page when looking at its layout. It vaese tam simplic quam Occidental in fact.', 'formula' ); ?></p>
 								</aside>
 								<article class="client-info">
 									<figure class="client-thumbnail"><img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/testimonial/test2.png" class="img-circle" alt="testimonial"></figure>
-									<cite class="client-name"><?php _e( 'Mark Agroiks', 'formula' ); ?></cite>
-									<span class="client-designation"><?php _e( 'CEO, Apce.co', 'formula' ); ?></span>
+									<cite class="client-name"><?php _e( 'Jenifer Albert', 'formula' ); ?></cite>
+									<span class="client-designation"><?php _e( 'MANAGER', 'formula' ); ?></span>
 								</article>
 								<div class="icon-quote">
 									<img src="<?php echo awp_companion_plugin_url; ?>/inc/formula/img/testimonial/quote.png">

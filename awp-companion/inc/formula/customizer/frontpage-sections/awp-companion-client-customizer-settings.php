@@ -87,7 +87,7 @@ if ( ! class_exists( 'formula_Customize_Homepage_Client_Option' ) ) :
 				// container
 				'formula_client_container_size'     => array(
 					'setting' => array(
-						'default'			=> 'container',
+						'default'			=> 'container-full',
 						'sanitize_callback'	=> array( 'formula_Customizer_Sanitize', 'sanitize_radio' ),
 					),
 					'control' => array(
@@ -106,7 +106,7 @@ if ( ! class_exists( 'formula_Customize_Homepage_Client_Option' ) ) :
 				// column layout
 				'formula_client_column_layout'	=> array(
 					'setting'	=> array(
-						'default'           => 3,
+						'default'           => 5,
 						'sanitize_callback' => array( 'formula_Customizer_Sanitize', 'sanitize_radio' ),
 					),
 					'control'	=> array(

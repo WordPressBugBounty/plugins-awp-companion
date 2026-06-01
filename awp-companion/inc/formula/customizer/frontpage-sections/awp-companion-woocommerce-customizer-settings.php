@@ -87,7 +87,7 @@ if ( ! class_exists( 'formula_Customize_Homepage_WooCommerce_Option' ) ) :
 				// container
 				'formula_woocommerce_container_size'     => array(
 					'setting' => array(
-						'default'			=> 'container',
+						'default'			=> 'container-full',
 						'sanitize_callback'	=> array( 'formula_Customizer_Sanitize', 'sanitize_radio' ),
 					),
 					'control' => array(

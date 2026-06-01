@@ -72,7 +72,7 @@ if ( $formula_main_slider_disabled != false ) {
 								$open_new_tab = ! empty( $slide_item->open_new_tab ) ? apply_filters( 'formula_translate_single_string', $slide_item->open_new_tab, 'Slider section' ) : '';
 
 						?>
-						<div class="container slider-caption">
+						<div class="container-full slider-caption">
 							<div class="caption-content">
 								<figcaption class="caption-content " style="text-align: <?php echo $content_format; ?>;align-items: <?php echo $sub_format; ?>">
 									<?php if ( ( $title != '' ) || ( $img_description != '' ) ) { ?>
@@ -148,7 +148,7 @@ if ( $formula_main_slider_disabled != false ) {
 					
 				?>
 				<div class="item home-section home-full-height" style="background-image:url(<?php echo awp_companion_plugin_url; ?>inc/formula/img/slider/<?php echo $slide_img; ?>);">
-					<div class="container slider-caption">
+					<div class="container-full slider-caption">
 						<figcaption class="caption-content" style="text-align: left;align-items: baseline;">
 							<span class="subtitle"><?php echo esc_html( $slide_subtitle ); ?></span>
 							<h2 class="title"><?php echo esc_html( $slide_title ); ?></h2>

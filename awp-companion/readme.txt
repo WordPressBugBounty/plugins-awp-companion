@@ -4,7 +4,7 @@ Donate link: https://paypal.me/awplife
 Tags: frontpage, companion, homepage, WordPress frontpage, template
 Requires at least: 4.6
 Tested up to: 6.9
-Stable tag: 1.5.9
+Stable tag: 1.6.0
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -101,6 +101,11 @@ https://pixabay.com/photos/bedroom-visualization-4696556/
 Have any queries?
 
 == Changelog ==
+= 1.6.0 =
+* Enhancement: Re-engineered Testimonials, Portfolio, and Sponsors fallback blocks with dynamic captions and grid metadata for Formula themes
+* Enhancement: Added title and subtitle control fields to the Customizer Client Repeater for Formula themes.
+* Fix: Streamlined WooCommerce Products frontpage section by removing redundant theme-specific title overrides for Formula themes.
+* Fix: Restored robust taxonomy queries (`exclude-from-catalog`) for the WooCommerce block to correctly hide hidden products for Formula themes.
 = 1.5.9 =
 * Added support and demo files for "Blog Over Minimal" child theme.
 * Synced with the latest Blog Over theme structure and Dark Mode functionality.

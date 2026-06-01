@@ -30,7 +30,7 @@ $formula_blog_container_size = get_theme_mod('formula_blog_container_size', 'con
 				<?php
 				$formula_blog_column_layout  = get_theme_mod( 'formula_blog_column_layout','col-xl-4');
 				$formula_theme_blog_category = get_theme_mod('formula_theme_blog_category');
-				$formula_blog_count  = get_theme_mod( 'formula_blog_count', array('slider' => 4,'suffix' => '',));
+				$formula_blog_count  = get_theme_mod( 'formula_blog_count', array('slider' => 3,'suffix' => '',));
 				
 				$post_args = array( 'post_type' => 'post','posts_per_page' => $formula_blog_count['slider'],
 				'category__in'	=> $formula_theme_blog_category,'post__not_in'=>get_option("sticky_posts")); 	

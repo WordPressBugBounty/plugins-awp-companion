@@ -189,19 +189,6 @@ if ( $formula_service_area_disabled == true ) :
 					}
 				} else {
 
-					if ( 'Formula' == $activate_theme || 'Formula Dark' == $activate_theme 
-					|| 'Formula Light' == $activate_theme || 'Education Formula' == $activate_theme ) {
-						$s1_title = 'Digital Marketing';
-						$s1_img   = 's1.png';
-						$s2_title = 'eCommerce';
-						$s2_img   = 's2.png';
-						$s3_title = 'Branding Design';
-						$s3_img   = 's3.png';
-
-						$s_desc   = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin, est eu vehicula pulvinar';
-						$s_button = 'Know More';
-					}
-
 					if ( 'Medical Formula' == $activate_theme ) {
 						$s1_title = 'Heart - Cardiology';
 						$s1_img   = 'mf1.png';
@@ -212,22 +199,7 @@ if ( $formula_service_area_disabled == true ) :
 
 						$s_desc   = 'Nulla fermentum euismod nibh, eu volutpat leo consequat sit amet. Sed vehicula mollis enim, sed rhoncus arcu hendrerit quis.';
 						$s_button = 'Get More Info';
-					}
-
-					if ( 'Metaverse' == $activate_theme ) {
-
-						$s1_title = 'Fueling The Metaverse';
-						$s1_img   = 'icon-1.png';
-						$s2_title = 'Interconnected Economies';
-						$s2_img   = 'icon-2.png';
-						$s3_title = 'Non-fungible assets';
-						$s3_img   = 'icon-3.png';
-
-						$s_desc   = 'The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its';
-						$s_button = '';
-
-					}
-					?>
+						?>
 						<div class="col-lg-4 col-sm-6 col-xs-12 service-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
 							<article class="post">
 								<div class="entry-header">
@@ -241,7 +213,7 @@ if ( $formula_service_area_disabled == true ) :
 								</div>
 								<div class="service-image">
 									<a href="#" target='_blank' ?>
-										<img class="" src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/<?php echo $s1_img; ?>" alt="Digital Marketing" title="Digital Marketing"  />
+										<img class="" src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/<?php echo $s1_img; ?>" alt="Medical" title="Medical"  />
 									</a>
 								</div>					
 							</article> 
@@ -260,7 +232,7 @@ if ( $formula_service_area_disabled == true ) :
 								</div>
 								<div class="service-image">
 									<a href="#" target='_blank' ?>
-										<img class="" src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/<?php echo $s2_img; ?>" alt="Digital Marketing" title="Digital Marketing"  />
+										<img class="" src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/<?php echo $s2_img; ?>" alt="Medical" title="Medical"  />
 									</a>
 								</div>	
 							</article> 
@@ -279,12 +251,135 @@ if ( $formula_service_area_disabled == true ) :
 								</div>
 								<div class="service-image">
 									<a href="#" target='_blank' ?>
-										<img class="" src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/<?php echo $s3_img; ?>" alt="Digital Marketing" title="Digital Marketing"  />
+										<img class="" src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/<?php echo $s3_img; ?>" alt="Medical" title="Medical"  />
 									</a>
 								</div>	
 							</article> 
 						</div>
-				<?php } ?>
+						<?php
+					} elseif ( 'Metaverse' == $activate_theme ) {
+						$s1_title = 'Fueling The Metaverse';
+						$s1_img   = 'icon-1.png';
+						$s2_title = 'Interconnected Economies';
+						$s2_img   = 'icon-2.png';
+						$s3_title = 'Non-fungible assets';
+						$s3_img   = 'icon-3.png';
+
+						$s_desc   = 'The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its';
+						$s_button = '';
+						?>
+						<div class="col-lg-4 col-sm-6 col-xs-12 service-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+							<article class="post">
+								<div class="entry-header">
+									<h2 class="entry-title"><a href="#"><?php echo esc_html( $s1_title ); ?></a></h2>
+								</div>		
+								<div class="entry-content">
+									<p><?php echo esc_html( $s_desc ); ?></p>
+									<?php if ( ! empty( $s_button ) ) { ?>						
+										<p><a href="#" class="more-link"><?php echo esc_html( $s_button ); ?></a></p>	
+									<?php } ?>	
+								</div>
+								<div class="service-image">
+									<a href="#" target='_blank' ?>
+										<img class="" src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/<?php echo $s1_img; ?>" alt="Metaverse" title="Metaverse"  />
+									</a>
+								</div>					
+							</article> 
+						</div>
+
+						<div class="col-lg-4 col-sm-6 col-xs-12 service-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+							<article class="post">
+								<div class="entry-header">
+									<h2 class="entry-title"><a href="#"><?php echo esc_html( $s2_title ); ?></a></h2>
+								</div>		
+								<div class="entry-content">
+									<p><?php echo esc_html( $s_desc ); ?></p>						
+									<?php if ( ! empty( $s_button ) ) { ?>						
+										<p><a href="#" class="more-link"><?php echo esc_html( $s_button ); ?></a></p>	
+									<?php } ?>			
+								</div>
+								<div class="service-image">
+									<a href="#" target='_blank' ?>
+										<img class="" src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/<?php echo $s2_img; ?>" alt="Metaverse" title="Metaverse"  />
+									</a>
+								</div>	
+							</article> 
+						</div>
+
+						<div class="col-lg-4 col-sm-6 col-xs-12 service-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+							<article class="post">
+								<div class="entry-header">
+									<h2 class="entry-title"><a href="#"><?php echo esc_html( $s3_title ); ?></a></h2>
+								</div>		
+								<div class="entry-content">
+									<p><?php echo esc_html( $s_desc ); ?></p>						
+									<?php if ( ! empty( $s_button ) ) { ?>						
+										<p><a href="#" class="more-link"><?php echo esc_html( $s_button ); ?></a></p>	
+									<?php } ?>			
+								</div>
+								<div class="service-image">
+									<a href="#" target='_blank' ?>
+										<img class="" src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/<?php echo $s3_img; ?>" alt="Metaverse" title="Metaverse"  />
+									</a>
+								</div>	
+							</article> 
+						</div>
+						<?php
+					} else {
+						?>
+						<div class="col-lg-4 col-sm-6 col-xs-12 service-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+							<article class="post">
+								<div class="entry-header">
+									<h2 class="entry-title"><a href="#"><?php _e('MARKETING STRATEGY','formula'); ?></a></h2>
+								</div>		
+								<div class="entry-content">
+									<p><?php _e('Develop targeted campaigns that resonate with your core audience and drive meaningful conversion.','formula'); ?></p>						
+									<p><a href="#" class="more-link"><?php _e('Learn More','formula'); ?></a></p>		
+								</div>
+								<div class="service-image">
+									<a href="#">
+										<img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/s1.png" alt="<?php _e('MARKETING STRATEGY','formula'); ?>" />
+									</a>
+								</div>
+							</article> 
+						</div>
+
+						<div class="col-lg-4 col-sm-6 col-xs-12 service-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+							<article class="post">
+								<div class="entry-header">
+									<h2 class="entry-title"><a href="#"><?php _e('WEBSITE DEVELOPMENT','formula'); ?></a></h2>
+								</div>		
+								<div class="entry-content">
+									<p><?php _e('High-performance, bespoke digital platforms engineered for scale, reliability, and user experience.','formula'); ?></p>
+									<p><a href="#" class="more-link"><?php _e('Start Now','formula'); ?></a></p>		
+								</div>
+								<div class="service-image">
+									<a href="#">
+										<img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/s2.png" alt="<?php _e('WEBSITE DEVELOPMENT','formula'); ?>" />
+									</a>
+								</div>
+							</article> 
+						</div>
+
+						<div class="col-lg-4 col-sm-6 col-xs-12 service-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+							<article class="post">
+								<div class="entry-header">
+									<h2 class="entry-title"><a href="#"><?php _e('MODERN & RESPONSIVE DESIGN','formula'); ?></a></h2>
+								</div>
+								<div class="entry-content">
+									<p><?php _e('Award-winning visual aesthetics that maintain integrity and usability across all device form factors.','formula'); ?></p>
+									<p><a href="#" class="more-link"><?php _e('Explore More','formula'); ?></a></p>
+								</div>
+								<div class="service-image">
+									<a href="#">
+										<img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/s3.png" alt="<?php _e('MODERN & RESPONSIVE DESIGN','formula'); ?>" />
+									</a>
+								</div>
+							</article> 
+						</div>
+						<?php
+					}
+				} ?>
 			</div>
 	</div>
 </section>

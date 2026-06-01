@@ -287,15 +287,17 @@ function awp_formula_frontpage_sections_settings( $wp_customize ){
 			$wp_customize->add_setting( 'formula_client_content', array( ) );
 			$wp_customize->add_control( new formula_Repeater( 
 			$wp_customize, 'formula_client_content', array(
-				'label'                             => esc_html__( 'Client Items Content', 'formula' ),
-				'section'                           => 'formula_theme_client',
-				'add_field_label'                   => esc_html__( 'Add new Client item', 'formula' ),
-				'item_name'                         => esc_html__( 'Client Item', 'formula' ),
-				'priority'                          => 9,
-				'customizer_repeater_link_control'	=> true,
-				'customizer_repeater_image_control'	=> true,
-				'customizer_repeater_checkbox_control'	=> true,
-				'active_callback'					=> 'formula_client_content',
+				'label'                                => esc_html__( 'Client Items Content', 'formula' ),
+				'section'                              => 'formula_theme_client',
+				'add_field_label'                      => esc_html__( 'Add new Client item', 'formula' ),
+				'item_name'                            => esc_html__( 'Client Item', 'formula' ),
+				'priority'                             => 9,
+				'customizer_repeater_title_control'    => true,
+				'customizer_repeater_subtitle_control' => true,
+				'customizer_repeater_link_control'     => true,
+				'customizer_repeater_image_control'    => true,
+				'customizer_repeater_checkbox_control' => true,
+				'active_callback'                      => 'formula_client_content',
 			) ) );
 		}
 
@@ -482,7 +484,7 @@ function AWP_formula_Customizer_selective_refresh_settings($wp_customize) {
 	
 	// Sponsors Title.
 	$wp_customize->add_setting( 'formula_client_area_title',array(
-		'default' => '',
+		'default' => __( 'Meet The Partners', 'formula' ),
 		'sanitize_callback' => 'formula_sanitize_text',
 		'transport' => $selective_refresh,
 	));	
@@ -495,7 +497,7 @@ function AWP_formula_Customizer_selective_refresh_settings($wp_customize) {
 	));
 	// Sponsors Description.
 	$wp_customize->add_setting( 'formula_client_area_desc',array(
-		'default' => '',
+		'default' => __( 'SPONSORS', 'formula' ),
 		'sanitize_callback' => 'formula_sanitize_text',
 		'transport' => $selective_refresh,
 	));	
