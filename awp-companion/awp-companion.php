@@ -7,10 +7,10 @@ if (!defined('ABSPATH')) {
  * Plugin Name:          A WP Life Themes Companion
  * Plugin URI:           https://wordpress.org/plugins/awp-companion
  * Description:          A WP Life Themes Companion plugin provides awordpresslife themes extra settings for front page.
- * Version:              1.6.0
+ * Version:              1.6.1
  * Author:               A WP Life
  * Author URI:           https://awplife.com/
- * Tested up to:         6.9
+ * Tested up to:         7.0
  * Requires:             4.6 or higher
  * License:              GPLv3 or later
  * License URI:          http://www.gnu.org/licenses/gpl-3.0.html
@@ -77,7 +77,7 @@ if (!function_exists('awp_companion_blog_over_init')) {
 		$activate_theme_data = wp_get_theme();
 		$activate_theme = $activate_theme_data->name;
 
-		if ('Blog Over' == $activate_theme || 'Blog Over Dark' == $activate_theme || 'Blog Over Minimal' == $activate_theme) {
+		if ('Blog Over' == $activate_theme || 'Blog Over Dark' == $activate_theme || 'Blog Over Minimal' == $activate_theme || 'Blog Over News' == $activate_theme) {
 			require 'inc/blog-over/blog-over.php';
 		}
 	}
@@ -90,7 +90,7 @@ function awp_companion_activate()
 	$activate_theme_data = wp_get_theme(); // getting current theme data.
 	$activate_theme = $activate_theme_data->name;
 
-	if ( 'Nature Formula' === $activate_theme || 'Blog Over' === $activate_theme || 'Blog Over Dark' === $activate_theme || 'Blog Over Minimal' === $activate_theme ) {
+	if ( 'Nature Formula' === $activate_theme || 'Blog Over' === $activate_theme || 'Blog Over Dark' === $activate_theme || 'Blog Over Minimal' === $activate_theme || 'Blog Over News' === $activate_theme ) {
 		return;
 	}
 	 else {

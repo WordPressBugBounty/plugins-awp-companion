@@ -51,25 +51,43 @@ if (!function_exists('blog_over_starter_sites_import_files')) {
                 'import_widget_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-minimal/blog-over-minimal.wie',
                 'import_customizer_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-minimal/blog-over-minimal.dat',
                 'preview_url' => 'https://awplife.com/demo/blog-over-minimal/',
-                'import_preview_image_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-minimal/screenshot.webp',
+                'import_preview_image_url' => 'https://awplife.com/wp-content/uploads/2026/03/blog-over-minimal.png',
+            ),
+            array(
+                'import_file_name' => esc_html__('Blog Over News', 'awp-companion'),
+                'categories' => array('Free Demos'),
+                'import_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-news/blog-over-news.xml',
+                'import_widget_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-news/blog-over-news.wie',
+                'import_customizer_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-news/blog-over-news.dat',
+                'preview_url' => 'https://awplife.com/demo/blog-over-news/',
+                'import_preview_image_url' => 'https://awplife.com/wp-content/uploads/2026/06/blog-over-news-theme-demo-image.png',
             ),
             array(
                 'import_file_name' => esc_html__('Blog Over Magzine', 'awp-companion'),
                 'categories' => array('Pro Demos'),
-                'import_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-magzine/blog-over-magzine.xml',
-                'import_widget_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-magzine/blog-over-magzine.wie',
-                'import_customizer_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-magzine/blog-over-magzine.dat',
+                'import_file_url' => (defined('BLOG_OVER_PRO_URI') ? BLOG_OVER_PRO_URI : content_url('plugins/blog-over-pro/')) . 'assets/demos/blog-over-magzine/blog-over-magzine.xml',
+                'import_widget_file_url' => (defined('BLOG_OVER_PRO_URI') ? BLOG_OVER_PRO_URI : content_url('plugins/blog-over-pro/')) . 'assets/demos/blog-over-magzine/blog-over-magzine.wie',
+                'import_customizer_file_url' => (defined('BLOG_OVER_PRO_URI') ? BLOG_OVER_PRO_URI : content_url('plugins/blog-over-pro/')) . 'assets/demos/blog-over-magzine/blog-over-magzine.dat',
                 'preview_url' => 'https://awplife.com/demo/blog-over-magzine/',
                 'import_preview_image_url' => 'https://awplife.com/wp-content/uploads/2026/03/blog-over-magzine.webp',
             ),
             array(
                 'import_file_name' => esc_html__('Blog Over Post', 'awp-companion'),
                 'categories' => array('Pro Demos'),
-                'import_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-post/blog-over-post.xml',
-                'import_widget_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-post/blog-over-post.wie',
-                'import_customizer_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-post/blog-over-post.dat',
+                'import_file_url' => (defined('BLOG_OVER_PRO_URI') ? BLOG_OVER_PRO_URI : content_url('plugins/blog-over-pro/')) . 'assets/demos/blog-over-post/blog-over-post.xml',
+                'import_widget_file_url' => (defined('BLOG_OVER_PRO_URI') ? BLOG_OVER_PRO_URI : content_url('plugins/blog-over-pro/')) . 'assets/demos/blog-over-post/blog-over-post.wie',
+                'import_customizer_file_url' => (defined('BLOG_OVER_PRO_URI') ? BLOG_OVER_PRO_URI : content_url('plugins/blog-over-pro/')) . 'assets/demos/blog-over-post/blog-over-post.dat',
                 'preview_url' => 'https://awplife.com/demo/blog-over-post/',
                 'import_preview_image_url' => 'https://awplife.com/wp-content/uploads/2026/03/blog-over-post.webp',
+            ),
+            array(
+                'import_file_name' => esc_html__('Blog Over Standard', 'awp-companion'),
+                'categories' => array('Pro Demos'),
+                'import_file_url' => (defined('BLOG_OVER_PRO_URI') ? BLOG_OVER_PRO_URI : content_url('plugins/blog-over-pro/')) . 'assets/demos/blog-over-standard/blog-over-standard.xml',
+                'import_widget_file_url' => (defined('BLOG_OVER_PRO_URI') ? BLOG_OVER_PRO_URI : content_url('plugins/blog-over-pro/')) . 'assets/demos/blog-over-standard/blog-over-standard.wie',
+                'import_customizer_file_url' => (defined('BLOG_OVER_PRO_URI') ? BLOG_OVER_PRO_URI : content_url('plugins/blog-over-pro/')) . 'assets/demos/blog-over-standard/blog-over-standard.dat',
+                'preview_url' => 'https://awplife.com/demo/blog-over-standard/',
+                'import_preview_image_url' => 'https://awplife.com/wp-content/uploads/2026/06/Blog-Over-Standard.webp',
             ),
         );
     }
@@ -112,9 +130,16 @@ add_action('pt-ocdi/after_import', 'blog_over_starter_sites_after_import');
 
 function blog_over_starter_sites_ocdi_css() {
     // Check if the current screen is not the customizer
-    if ( is_admin() && !is_customize_preview() ) { ?>
+    if ( is_admin() && !is_customize_preview() ) { 
+        $hide_pro_buttons = !defined('BLOG_OVER_PRO_VERSION');
+        ?>
         <style>
-            .ocdi__gl-item:nth-child(n+4) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about, .ocdi__intro-text {
+            <?php if ( $hide_pro_buttons ) : ?>
+            .ocdi__gl-item:nth-child(n+5) .ocdi__gl-item-buttons .button-primary {
+                display: none !important;
+            }
+            <?php endif; ?>
+            .ocdi .ocdi__theme-about, .ocdi__intro-text {
                 display: none;
             }
             .ocdi__gl-item-image-container::after {
