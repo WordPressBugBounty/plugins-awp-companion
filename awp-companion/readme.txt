@@ -3,8 +3,8 @@ Contributors: awordpresslife
 Donate link: https://paypal.me/awplife
 Tags: frontpage, companion, homepage, WordPress frontpage, template
 Requires at least: 4.6
-Tested up to: 7.0
-Stable tag: 1.6.1
+Tested up to: 6.9
+Stable tag: 1.6.2
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -101,9 +101,12 @@ https://pixabay.com/photos/bedroom-visualization-4696556/
 Have any queries?
 
 == Changelog ==
-= 1.6.1 =
+= 1.6.2 =
+* Enhancement: Updated demo preview image URL for "Blog Over Post".
 * Enhancement: Added support and demo configurations for the new "Blog Over News" child theme.
 * Enhancement: Updated preview image URL for "Blog Over Minimal" demo.
+
+= 1.6.1 =
 * Enhancement: Added support for "Blog Over Standard" demo and updated demo image paths.
 
 = 1.6.0 =
