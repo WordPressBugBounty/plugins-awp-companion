@@ -4,7 +4,7 @@ Donate link: https://paypal.me/awplife
 Tags: frontpage, companion, homepage, WordPress frontpage, template
 Requires at least: 4.6
 Tested up to: 6.9
-Stable tag: 1.6.2
+Stable tag: 1.6.3
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -101,6 +101,10 @@ https://pixabay.com/photos/bedroom-visualization-4696556/
 Have any queries?
 
 == Changelog ==
+= 1.6.3 =
+* Enhancement: Replaced blocking jQuery(window).load with jQuery(document).ready across all frontpage carousel and slider templates for instant loading.
+* Fix: Added fallback initial variable definitions in Formula slider template to prevent PHP undefined variable warnings on child theme activation.
+
 = 1.6.2 =
 * Enhancement: Updated demo preview image URL for "Blog Over Post".
 * Enhancement: Added support and demo configurations for the new "Blog Over News" child theme.

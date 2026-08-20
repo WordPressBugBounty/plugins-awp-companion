@@ -169,7 +169,7 @@ if ( $formula_testimonial_disabled == true ) :
 	</div>
 </section>
 <script>
-	jQuery(window).load(function(){
+	jQuery(document).ready(function(){
 		jQuery("#testimonial-demo").owlCarousel({
 			navigation : true,
 			<?php if ( $formula_testimonial_autoplay != false ) { ?>

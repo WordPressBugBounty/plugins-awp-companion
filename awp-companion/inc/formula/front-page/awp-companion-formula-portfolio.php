@@ -283,7 +283,7 @@ if ( $formula_portfolio_disabled == true ) :
 </section>
 
 <script>
-	jQuery(window).load(function(){
+	jQuery(document).ready(function(){
 		jQuery("#portfolio-demo").owlCarousel({
 			navigation : false,
 			<?php if ( $formula_portfolio_autoplay_disable != false ) { ?>

@@ -105,7 +105,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 	</div>
 </section>
 <script>
-	jQuery(window).load(function(){
+	jQuery(document).ready(function(){
 		jQuery("#woocommerce-carousel").owlCarousel({
 			navigation : true, 
 			<?php if ( $formula_woocommerce_autoplay == 1 ) { ?>

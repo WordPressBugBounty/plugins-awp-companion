@@ -123,7 +123,7 @@ if ( $formula_client_disabled == true ) :
 			</div>
 		</section>
 		<script>
-			jQuery(window).load(function(){
+			jQuery(document).ready(function(){
 				jQuery("#sponsors-demo").owlCarousel({
 					navigation : false,
 					<?php if ( $formula_client_autoplay == true ) { ?>

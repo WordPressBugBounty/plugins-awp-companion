@@ -97,4 +97,4 @@ $formula_blog_container_size = get_theme_mod('formula_blog_container_size', 'con
 </section>	
 <?php endif; ?>	
 <!-- End of Blog Section -->	
-<div class="clearfix"></div>	
+<div class="clearfix"></div>

@@ -102,6 +102,21 @@ if ( $formula_main_slider_disabled != false ) {
 		} else {
 					$activate_theme_data = wp_get_theme(); // getting current theme data.
 					$activate_theme      = $activate_theme_data->name;
+
+					$slide_img      = 'slide.png';
+					$slide_title    = 'Give Wings To Your Imaginations';
+					$slide_subtitle = 'Explore Your Creativity';
+					$slide_desc     = 'Take your dreams and imagination to the next level of your expectations';
+					$slide_button   = 'Build Something Creative';
+
+					if ( 'Business Formula' == $activate_theme ) {
+						$slide_img      = 'slide.png';
+						$slide_title    = 'Accelerate Your Business Growth';
+						$slide_subtitle = 'Strategic Corporate Solutions';
+						$slide_desc     = 'Empowering enterprises and startups with next-generation business strategies, modern technology, and actionable insights.';
+						$slide_button   = 'Discover Our Services';
+					}
+
 					if ( 'Formula' == $activate_theme || 'Formula Light' == $activate_theme ) {
 
 						$slide_img      = 'slide.png';
@@ -166,7 +181,7 @@ if ( $formula_main_slider_disabled != false ) {
 </section>
 <?php } ?>
 <script>
-	jQuery(window).load(function(){
+	jQuery(document).ready(function(){
 		jQuery("#slider-demo").owlCarousel({
 			navigation: true, // Show next and prev buttons
 			<?php if ( $formula_main_slider_autoplay_disable != false ) { ?>

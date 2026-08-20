@@ -247,7 +247,7 @@ if ( $formula_team_disabled == true ) :
 	</section>
 
 <script>
-	jQuery(window).load(function(){
+	jQuery(document).ready(function(){
 		jQuery("#team-demo").owlCarousel({
 			navigation : false,
 			<?php if ( $formula_team_autoplay_disable != false ) { ?>

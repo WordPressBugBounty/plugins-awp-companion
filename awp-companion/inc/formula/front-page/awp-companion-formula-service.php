@@ -336,9 +336,9 @@ if ( $formula_service_area_disabled == true ) :
 									<p><?php _e('Develop targeted campaigns that resonate with your core audience and drive meaningful conversion.','formula'); ?></p>						
 									<p><a href="#" class="more-link"><?php _e('Learn More','formula'); ?></a></p>		
 								</div>
-								<div class="service-image">
+								<div class="service-icon">
 									<a href="#">
-										<img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/s1.png" alt="<?php _e('MARKETING STRATEGY','formula'); ?>" />
+										<i class="fa fa-bar-chart"></i>
 									</a>
 								</div>
 							</article> 
@@ -353,9 +353,9 @@ if ( $formula_service_area_disabled == true ) :
 									<p><?php _e('High-performance, bespoke digital platforms engineered for scale, reliability, and user experience.','formula'); ?></p>
 									<p><a href="#" class="more-link"><?php _e('Start Now','formula'); ?></a></p>		
 								</div>
-								<div class="service-image">
+								<div class="service-icon">
 									<a href="#">
-										<img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/s2.png" alt="<?php _e('WEBSITE DEVELOPMENT','formula'); ?>" />
+										<i class="fa fa-code"></i>
 									</a>
 								</div>
 							</article> 
@@ -370,9 +370,9 @@ if ( $formula_service_area_disabled == true ) :
 									<p><?php _e('Award-winning visual aesthetics that maintain integrity and usability across all device form factors.','formula'); ?></p>
 									<p><a href="#" class="more-link"><?php _e('Explore More','formula'); ?></a></p>
 								</div>
-								<div class="service-image">
+								<div class="service-icon">
 									<a href="#">
-										<img src="<?php echo awp_companion_plugin_url; ?>inc/formula/img/service/s3.png" alt="<?php _e('MODERN & RESPONSIVE DESIGN','formula'); ?>" />
+										<i class="fa fa-clone"></i>
 									</a>
 								</div>
 							</article> 
