@@ -72,6 +72,15 @@ if (!function_exists('blog_over_starter_sites_import_files')) {
                 'import_preview_image_url' => 'https://awplife.com/wp-content/uploads/2026/06/blog-over-news-theme-demo-image.webp',
             ),
             array(
+                'import_file_name' => esc_html__('Blog Over Pulse', 'awp-companion'),
+                'categories' => array('Free Demos'),
+                'import_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-pulse/blog-over-pulse.xml',
+                'import_widget_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-pulse/blog-over-pulse.wie',
+                'import_customizer_file_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-pulse/blog-over-pulse.dat',
+                'preview_url' => 'https://awplife.com/demo/blog-over-pulse/',
+                'import_preview_image_url' => $demo_url . 'inc/blog-over/demo-content/blog-over-pulse/screenshot.webp',
+            ),
+            array(
                 'import_file_name' => esc_html__('Blog Over Magzine', 'awp-companion'),
                 'categories' => array('Pro Demos'),
                 'import_file_url' => (defined('BLOG_OVER_PRO_URI') ? BLOG_OVER_PRO_URI : content_url('plugins/blog-over-pro/')) . 'assets/demos/blog-over-magzine/blog-over-magzine.xml',
@@ -135,7 +144,7 @@ function blog_over_starter_sites_ocdi_css() {
         ?>
         <style>
             <?php if ( $hide_pro_buttons ) : ?>
-            .ocdi__gl-item:nth-child(n+6) .ocdi__gl-item-buttons .button-primary {
+            .ocdi__gl-item:nth-child(n+7) .ocdi__gl-item-buttons .button-primary {
                 display: none !important;
             }
             <?php endif; ?>
